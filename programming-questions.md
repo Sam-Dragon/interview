@@ -8,3 +8,8 @@ A.
 
 3. Using 2 threads, Thread 1 reads A-Z and Thread 2 reads 1-10. Output - Print 1,A,2,B,3,C....
 A. 
+
+4. Prime numbers
+A.
+
+5. Average salary of employees 
