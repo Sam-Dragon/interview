@@ -11,8 +11,7 @@ A. Yes, using three annotations [ @Configuration, @EnableAutoConfiguration, @Com
 A. In order to include external packages [outside the classpath], it works in conjuction with @Component if class
 
 5. What is @RestController <br>
-A. It is process of reciving request from front controller registered on class path & default response of [HttpMessageConverter - Jackson] json will provided  
-   [@Controller + @ResponseBody] 
+A. It is process of reciving request from front controller registered on class path & default response of [HttpMessageConverter - Jackson] json will provided [@Controller + @ResponseBody] 
 
 5. What is @RequestMapping <br>
 A. It is responsible to mapping the incoming request and serve if matches.
