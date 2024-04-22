@@ -26,3 +26,30 @@ A.
 
 9. Difference between parallel stream and executor framework <br>
 A.   
+
+10. Comparable vs comparator ? <br>
+A. Comparable interface is used for providing default sorting where as Comparator is used for custom sorting [Multiple sorting]
+- Comparable interface requires current instance for comparision where as Comparator just requires any 2 instances
+- Comparable interface overridden method is compareTo(this) where as Comparator method it is compare(i1, i2)
+Ex. Collections.sort() --> Comparable, Comparator.comparing() --> Comparator
+
+11. HashMap Internal Working ?
+A. It is similar to map works on the logic of hashing
+- Override equals and hashcode
+- Bucket Concept & relate with equals and hashcode
+- extends AbstractMap<K,V>
+- implements Map<K,V> - Key/Value pair
+  Cloneable - Cloning
+  java.io.Serializable - Serilizing    
+
+12. Treemap internal working
+A. It is similar to map works on the logic of hashing
+- Override equals and hashcode
+- Bucket Concept & relate with equals and hashcode
+- It implements the NavigableMap -> SortedMap -> comparator interface so ensure nulls are not allowed in keys for sorting
+- extends AbstractMap<K,V>
+- implements NavigableMap<K,V> - Sorting
+  Cloneable - Cloning
+  java.io.Serializable - Serilizing
+
+13. 
