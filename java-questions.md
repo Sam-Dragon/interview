@@ -1,25 +1,28 @@
 Interesting Interview Questions
 
-1. Can we pass String Builder to String Buffer or vice versa
+1. Can we pass String Builder to String Buffer or vice versa <br>
 A. Yes
 
-2. Can we make non functional interface point to lamda expression
+2. Can we make non functional interface point to lamda expression <br>
 A. Yes, only if the interface has single abstract method and No, If interface contains more than one abstract method
 
-3. How would you access first string from string line input using BufferedReader
+3. How would you access first string from string line input using BufferedReader <br>
 A. using reader.readLine().split(" ")[0]; 
 
-4. Can we throw error and catch it
+4. Can we throw error and catch it <br>
 A. Yes, but it is not recommended
 
-5. Do you catch runtime exceptions 
+5. Do you catch runtime exceptions <br>
 A. Yes, catch(Exception e) catches all exceptions
 
-6. Can we clone singleton class ?
-- 
+6. Can we clone singleton class ? <br>
+A. 
 
-7. Can we serialize singleton class ?
-- 
+7. Can we serialize singleton class ? <br>
+A. 
 
-8. ConcurrentHashMap With example
-- 
+8. ConcurrentHashMap With example <br>
+A. 
+
+9. Difference between parallel stream and executor framework <br>
+A.   
