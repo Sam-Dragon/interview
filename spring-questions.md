@@ -14,5 +14,5 @@ A. In order to include external packages [outside the classpath], it works in co
 A. It is process of reciving request from front controller registered on class path & default response of [HttpMessageConverter - Jackson] json will provided [@Controller + @ResponseBody] 
 
 5. What is @RequestMapping <br>
-A. It is responsible to mapping the incoming request and serve if matches.
+A. It is responsible to mapping the incoming request and serve if matches. It is applicable at controller level [root context] or api lelvel [endpoint]
    Basically indicates a resource. Ex. @RequestMapping("/hello") --> http://context:port/resource[hello]
