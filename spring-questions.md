@@ -1,7 +1,7 @@
 Spring Interview Questions
 
-1. Can you run a spring application without using @SpringBootApplication
-A. Yes, using three annotations [ @Configuration, @EnableAutoConfiguration, @ComponentScan]
+1. Can you run a spring application without using @SpringBootApplication <br><br>
+- Yes, using three annotations [ @Configuration, @EnableAutoConfiguration, @ComponentScan]
 
 2. What is @Configuration
 
