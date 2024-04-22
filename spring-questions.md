@@ -1,7 +1,7 @@
 Spring Interview Questions
 
 1. Can you run a spring application without using @SpringBootApplication <br>
-- Yes, using three annotations [ @Configuration, @EnableAutoConfiguration, @ComponentScan]
+A. Yes, using three annotations [ @Configuration, @EnableAutoConfiguration, @ComponentScan]
 
 2. What is @Configuration
 
@@ -12,7 +12,7 @@ A. In order to include external packages [outside the classpath], it works in co
 
 5. What is @RestController
 A. It is process of reciving request from front controller registered on class path & default response of [HttpMessageConverter - Jackson] json will provided  
-   [ @Controller + @ResponseBody ] 
+   [@Controller + @ResponseBody] 
 
 5. What is @RequestMapping
 A. It is responsible to mapping the incoming request and serve if matches.
