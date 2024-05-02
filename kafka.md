@@ -19,7 +19,7 @@ A. Yes, we can stop kafka server gracefull using scripts. It abruptly terminated
 A. No, kafka server needs to be explicily stopped that to gracefully, failing to do so we may see older pods will continue to consume new messages and we may lose that data  
 
 2. which partitions will messages goes if the replica set is 3 ? <br>
-A. It will depend on the messages u send.
+A. It will depend on the messages u send. <br>
   &nbsp;&nbsp;&nbsp; - If the message is has plain text, it will go across the partitions & we may lose updates <br>
   &nbsp;&nbsp;&nbsp; - If the message is provided in form ket-value pair, it will go to specific partition ensuring updates are sequencial  
 
