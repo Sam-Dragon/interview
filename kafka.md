@@ -20,8 +20,8 @@ A. No, kafka server needs to be explicily stopped that to gracefully, failing to
 
 2. which partitions will messages goes if the replica set is 3 ? <br>
 A. It will depend on the messages u send.
-  - If the message is has plain text, it will go across the partitions & we may lose updates
-  - If the message is provided in form ket-value pair, it will go to specific partition ensuring updates are sequencial  
+  \t - If the message is has plain text, it will go across the partitions & we may lose updates
+  \t - If the message is provided in form ket-value pair, it will go to specific partition ensuring updates are sequencial  
 
 3. How to maintain order in kafka messages ? <br>
 A. By producing message on same key [Ex: Account credit/debit based on account no] 
