@@ -26,7 +26,7 @@ A. It will depend on the messages u send. <br>
 3. How to maintain order in kafka messages ? <br>
 A. By producing message on same key [Ex: Account credit/debit based on account no] 
 
-4. Can kafka send synchronous request ? <br>
+4. Can kafka send synchronous request. Basically it is only used asynchronously ? <br>
 A. Yes 
 
 5. 
