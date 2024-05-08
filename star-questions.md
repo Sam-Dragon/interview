@@ -49,5 +49,11 @@ A. By producing message on same key [Ex: Account credit/debit based on account n
 A. Yes. by using completable future method of 'completableFuture.join()' or  using directly reading sendResult.get(Timeout)
 
 # Database
-6. Why redis ? whats the advantage ?
+1.  CAP thoerm ? when to use which database ? <br>
+A. C - Consistency, A - Availability, P - Partition Tolerance <br>
+CA -> SQL Database - Mysql, postgres
+CP -> Mongo, redis
+AP -> Cassandra, Couch, Dynamo Db
 
+3. Why redis ? whats the advantage ? <br>
+A. Mainly used for caching and faster retrival
