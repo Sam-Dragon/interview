@@ -7,8 +7,16 @@
 2. How to prevent XSS attacks using spring boot? </br>
    https://danielangel22.medium.com/preventing-xss-attacks-in-your-spring-boot-api-c266a175e011   
 
-3. Additional security to which can be provided to system ? [Question focus on system attacks] <br>
+3. Additional security to which can be provided to system on login page ? [Question focus on system attacks] <br>
 A. DOS attack which can be solved using resiliency. Basically it counts the number of hits from particular api and block if required once threshould is reached
+
+4. How is serilization working in spring boot ? <br>
+A. Spring boot normally uses JSON library Jackson to serialize and deserialize the objects
+
+5. Default dataSource connection pool
+A. Hikari connection pool with pool size of 10
+
+6. 
 
 # Java
 1. Difference b/w Out Of Memory error raised by pemgen or by heap space [Variation in JDK versions]
