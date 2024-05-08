@@ -16,7 +16,13 @@ A. Spring boot normally uses JSON library Jackson to serialize and deserialize t
 5. Default dataSource connection pool
 A. Hikari connection pool with pool size of 10
 
-6. 
+6. If we configure two urls with different path param. what will happen ? <br>
+i.e /employee/{id} & /employee/{name}
+A. Application wont start as these are conflicting url's
+
+# Web
+1. How to solve the problem when request param contains '&' ? [& is delimeter for request params] <br>
+A. Just encode it and send
 
 # Java
 1. Difference b/w Out Of Memory error raised by pemgen or by heap space [Variation in JDK versions]
