@@ -20,6 +20,9 @@ A. Hikari connection pool with pool size of 10
 i.e endpoints -> '/employee/{id}' & '/employee/{name}' <br>
 A. Application wont start as these are conflicting url's
 
+# Spring Security
+1. 
+
 # Web
 1. How to solve the problem when request param contains '&' ? [& is delimeter for request params] <br>
 A. Just encode it and send
