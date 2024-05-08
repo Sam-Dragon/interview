@@ -26,19 +26,14 @@ A.
 9. How to support multiple db ? <br>
 A. 
 
-10. How is serilization working in spring boot ? <br>
-A. Spring boot normally uses JSON library Jackson to serialize and deserialize the objects
-
-11. What are base components of spring <br>
+10. What are base components of spring <br>
 A. Spring Boot Starters, Spring Boot AutoConfigurator, Spring Boot CLI, Spring Boot Actuator
 
-12. How beans are loaded in spring ? <br>
+11. How beans are loaded in spring ? <br>
 A. Using application context
 
-13. Difference b/w @Component & @Configuration
+12. Difference b/w @Component & @Configuration
 A. 
 
-14. What is starter pack in spring boot?
+13. What is starter pack in spring boot?
 A. It contains all the configuration for running a spring boot application
-
-15. 
