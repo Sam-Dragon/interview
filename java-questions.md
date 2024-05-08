@@ -1,12 +1,3 @@
-# Star Questions
-1. can we access variables/methods outside the package without making it as public ? <br>
-A. Yes, using protected but condition is class must be inherited 
-
-2. Additional security to which can be provided to system ? [Question focus on system attacks] <br>
-A. DOS attack which can be solved using resiliency. Basically it counts the number of hits from particular api and block if required once threshould is reached
-
-3. 
-
 # Interesting Interview Questions
 
 1. Can we pass String Builder to String Buffer or vice versa <br>
