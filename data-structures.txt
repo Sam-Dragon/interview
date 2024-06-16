@@ -1,0 +1,38 @@
+# DataStrcutres 
+
+> what is datastrcture? what is the advantage ?
+- It is a way of orgnanizing and storing data
+- Majorily is used for optimizing the performance
+Ex: LinkedList, Queue, Array etc....
+
+> Types of datastrcture?
+- Linear [sequencial]: Linked list, queues, stack
+- Non-linear: Trees & graphs 
+
+> what are variables in programming language ? how many types are there ?
+- variables are used for storing the data
+- They are classified into two types
+  - System Datatypes [Primitive Datatypes]: int, float, double etc..
+  - User Defined Datatypes [classes in java]: classes in java
+
+> what is the size of datatype in system ? say 'int' has 2 bytes ?
+- No, it is compiler dependent
+
+> what is algorithm ? why ?
+- It is step by step procedure to solve a given problem
+- It helps determining picking best solution among various
+
+> What is asymtotic analysis? why do we need ?
+- It is a process of determing the solution for a problem by coming datastructures to the functional inputs
+- It helps determining space and time complexity for a problem in terms of best, average and worst case
+
+> Best way to determine runtime analysis of algorithm ? is it based on number of iterations, number of statements execution ...
+- It is done by Rate of growth
+
+> Rate of growth
+- it is process of analysing the increase of time against the function of inputs 
+
+> In case of programs, which type of cases needs to considered ?
+- Ideally, worst cases
+  
+> How to determine space & time complexity ?
