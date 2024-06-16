@@ -15,6 +15,9 @@ Ex: LinkedList, Queue, Array etc....
   - System Datatypes [Primitive Datatypes]: int, float, double etc..
   - User Defined Datatypes [classes in java]: classes in java
 
+> ADT [Abstract Data type]
+- It is process of combining the right datastructure with their operations
+
 > what is the size of datatype in system ? say 'int' has 2 bytes ?
 - No, it is compiler dependent
 
@@ -29,8 +32,14 @@ Ex: LinkedList, Queue, Array etc....
 > Best way to determine runtime analysis of algorithm ? is it based on number of iterations, number of statements execution ...
 - It is done by Rate of growth
 
-> Rate of growth
+> Rate of growth ? commonly used ?
 - it is process of analysing the increase of time against the function of inputs 
+  - 1 -> constant: add element to first of linked list
+  - log n -> logarithmic: search element in sorted array
+  - n -> linear: search element in un-sorted array
+  - n logn -> linear logarithmic: sort element by devide and conquor technique [Merge sort]
+  - n^2 -> Quadrantic: shortest path b/w nodes
+  - 2^n -> Exponential: Tower of hanoi problem
 
 > In case of programs, which type of cases needs to considered ?
 - Ideally, worst cases
