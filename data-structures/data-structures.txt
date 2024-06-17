@@ -59,6 +59,9 @@ Ex: LinkedList, Queue, Array etc....
 - Use
   - Simple and easy to use
   - Faster search [access] in constant time
+  - Fixed sized
+  - speed while iterating over elements
+  - Memory is big concern
 - Not to use
   - Memory is dynamic
   - Memory wastage as size is pre-allocated
