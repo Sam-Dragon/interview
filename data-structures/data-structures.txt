@@ -43,5 +43,37 @@ Ex: LinkedList, Queue, Array etc....
 
 > In case of programs, which type of cases needs to considered ?
 - Ideally, worst cases
-  
+
+# Linked Lists
+> What is linked list datastructure? what are its properties ?
+- It is the linear datastructure used for storing collection of data
+- Properties
+  - Traverses in forward direction
+  - No wastage of memory
+  - Can grow and shrink dynamically
+  - Extra memory for references or pointer
+  - Last node reference is NULL
+  - It contains Node [data field + reference field]
+
+> When to use arrays and when not to use ?
+- Use
+  - Simple and easy to use
+  - Faster search [access] in constant time
+- Not to use
+  - Memory is dynamic
+  - Memory wastage as size is pre-allocated
+  - One block of execution
+  - Poor performance while perfroming insertion / deletion operation based on positions
+
+> When to use linked list and when not to use ?
+- Use
+  - Memory is dynamic [Expandable in constant time]
+  - No memory wastage
+  - Good performance while perfroming insertion / deletion operation in constant time
+- Not to use
+  - Extra memory for pointers or references
+  - Slower search [access] for individual elements
+
+
+
 > How to determine space & time complexity ?
