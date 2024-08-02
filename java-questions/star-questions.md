@@ -9,7 +9,8 @@ A. Yes, using protected but condition is class must be inherited
 A. It will show messages thrown from finally block
 
 4. If functional interfaces can define static & default methods, does it mean abstract classes are deprecated? <br>
-A. No. Reasons
+A. No. <br>
+Reasons
    - abstract class is a class, along with instance it can access all features of class such as clone, serilization etc..
    - abstract class variables can be private, protected, default where as interface remians public in nature
    - abstract class methods can be private, protected, default where as interface remians public in nature
