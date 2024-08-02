@@ -1,0 +1,4 @@
+# Patterns
+
+1. Behavior Parameterization
+- software development pattern that lets you handles frequent requirement changes 
