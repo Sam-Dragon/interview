@@ -2,3 +2,6 @@
 
 1. Behavior Parameterization
 - software development pattern that lets you handles frequent requirement changes 
+
+2. Strategy design pattern
+- define family of algorithms, encapsulate each algorithm & select an algorithm at runtime
