@@ -1,0 +1,4 @@
+# Principles
+
+1. DRY [Dont Repeat Yourself]
+  - It clearly states dont repeat same code for some additional conditions rather try to incorporate the same
