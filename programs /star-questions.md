@@ -11,7 +11,7 @@ A. It can be done in foreach loop [Recommended: takewhile/dropwhile]
    O/P: {"SAM", "ram", "JAM"} <br>
 **clue**: dont use filter here & take care of sensitivity
 
-3. Given a String containing numbers, show me the even numbers greater than 5
+3. Given a String containing numbers, show me the even numbers greater than 5 <br>
    I/P: "2, 8, 3, 4, 6" <br>
    O/P: {8, 6} <br>
 **clue**: use optionals
