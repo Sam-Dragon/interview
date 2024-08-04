@@ -6,5 +6,8 @@
 2. Strategy design pattern
 - define family of algorithms, encapsulate each algorithm & select an algorithm at runtime
 
-3. map-reduce pattern
+3. Execute-Around pattern
+- if the common code is surrounded with open/close reeatedly  
+
+4. map-reduce pattern
 - chain of map and reduce function
