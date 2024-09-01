@@ -52,4 +52,9 @@ A. It is similar to map works on the logic of hashing
   Cloneable - Cloning
   java.io.Serializable - Serilizing
 
-13. 
+13. Deep copy vs Shallow copy
+A. shallow copy updates the contents of the collection passed where as deep copy creates a copy of collections and sends
+ - deep copy requires extra space due to collection data storage where as shallow copy doesnt
+ - deep copy is bit slower compared to shallow copy due to copy operation into collection 
+
+15. 
