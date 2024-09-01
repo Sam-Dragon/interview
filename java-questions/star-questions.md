@@ -16,6 +16,12 @@
 
 4. Can we pass any other custom interface similar to runnable interface to Thread class for instantiating ? <br>
    A. No, as thread class accepts Runnable interaface only but u can pass directly lamda expression for excecution
+
+5.  which copy is used in immutable class ?
+   A. Deep copy
+   
+
+7.  
    
 #. Difference b/w Out Of Memory error raised by pemgen or by heap space [Variation in JDK versions] <br>
    A.
