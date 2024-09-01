@@ -19,7 +19,7 @@ A. Hikari connection pool with pool size of 10
 i.e endpoints -> '/employee/{id}' & '/employee/{name}' <br>
 A. Application wont start as these are conflicting url's
 
-7. Spring bean scopes ? Explaing 'Request' & 'Session' with example
+7. Spring bean scopes ? Explaing 'Request' & 'Session' with example <br>
 A. singleton, prototype, request, session & global-session[Deprecated] <br>
 Example: Try in editor
 
