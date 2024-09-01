@@ -18,3 +18,9 @@ A. Hikari connection pool with pool size of 10
 6. If we configure two urls with different path param. what will happen ? 
 i.e endpoints -> '/employee/{id}' & '/employee/{name}' <br>
 A. Application wont start as these are conflicting url's
+
+7. Spring bean scopes ? Explaing 'Request' & 'Session' with example
+A. singleton, prototype, request, session & global-session[Deprecated] <br>
+Example: Try in editor
+
+8. 
