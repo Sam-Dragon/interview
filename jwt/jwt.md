@@ -4,10 +4,10 @@
 - It is json object which securely transmits information over the web
 - It can be used for authentication & information exchange 
 - Meant for stateless sessions
-- It must be sent over the **header**, not recommended to send over url or body<br>
+- It must be sent over the **header**, not recommended to send over url or body
   
-> Advantages <br>
-- Requires only one time authentication. rest will be taken care by tokens <br>
+> Advantages
+- Requires only one time authentication. rest will be taken care by tokens
 
 > Good Scenarios <br>
 - Used for accessing api securely & will be helpful for creating sessions <br>
