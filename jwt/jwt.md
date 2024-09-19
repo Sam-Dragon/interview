@@ -3,7 +3,7 @@
 - It is json object which securely transmits information over the web <br>
 - It can be used for authentication & information exchange <br>
 - It must be sent over the **header**, not recommended to send over url or body
-- 
+  
 > Advantages <br>
 - Requires only one time authentication. rest will be taken care by tokens <br>
 
@@ -32,9 +32,9 @@
       i.e  HASHINGALGO( base64UrlEncode(header) + “.” + base64UrlEncode(payload),secret) <br>
     
 
-Example: Put this in "https://jwt.io/"
-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+Example: Put this in "https://jwt.io/" <br>
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c <br>
 
 # Best Practices
 - Use short-lived tokens
-- Use refresh tokens to regenerate the tokens rather than asking user for sensetive information
+- Use refresh tokens to regeneration rather than user sensetive information
