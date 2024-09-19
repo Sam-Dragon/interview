@@ -9,20 +9,20 @@
 > Advantages
 - Requires only one time authentication. rest will be taken care by tokens
 
-> Good Scenarios <br>
-- Used for accessing api securely & will be helpful for creating sessions <br>
+> Good Scenarios
+- Used for accessing api securely & will be helpful for creating sessions
 
-> Bad Scenarios <br>
-- Dont use them in cookies <br>
-- Not suitable for session management <br>
+> Bad Scenarios 
+- Dont use them in cookies
+- Not suitable for session management
 - Dont use long live tokens
 - Prevent putting informations such as permissions or application data in header
 
 > Design
-- It contains 3 sections separated by dots(.) <br>
-  - header: it contains metadata information & encoded in BASE64 format <br> 
-    i.e type - type of header [jwt] <br>
-        alg - algorithm used [HS256 and RS256 ]. If alg is missing, then token is unsecured <br>
+- It contains 3 sections separated by dots(.)
+  - header: it contains metadata information & encoded in BASE64 format
+    i.e type - type of header [jwt]
+        alg - algorithm used [HS256 and RS256 ]. If alg is missing, then token is unsecured 
         
   - payload: It contains user infromation & token related info. Dont put **sensative information** <br>
     i.e sub: subject of the token <br>
