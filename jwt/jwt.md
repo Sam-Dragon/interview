@@ -2,6 +2,7 @@
 
 - It is json object which securely transmits information over the web <br>
 - It can be used for authentication & information exchange <br>
+- Meant for stateless sessions
 - It must be sent over the **header**, not recommended to send over url or body
   
 > Advantages <br>
