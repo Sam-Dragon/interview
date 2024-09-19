@@ -5,7 +5,7 @@
 
 > Advantages
 - To prevent user from constantly authenticating multiple times with senstive credentials
-- It helps in managing sessions as well 
+- It helps in managing sessions as well [SSO]
 
 > Design
 - It contains 3 sections <br>
