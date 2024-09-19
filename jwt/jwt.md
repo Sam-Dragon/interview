@@ -36,6 +36,11 @@
 Example: Put this in "https://jwt.io/" <br>
 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c <br>
 
+> Types
+- Short-Lived Tokens: Preferred, to prevent unauthorized access
+- Refresh Tokens: Used in conjunction with short-lived tokens, mainly required for regeneration
+- Dynamic Expiration: expire token based on activity
+- Token Rotation: Periodically rotate JWT tokens and refresh tokens to limit their lifespan
 # Best Practices
 - Use short-lived tokens
 - Use refresh tokens to regeneration rather than user sensetive information
