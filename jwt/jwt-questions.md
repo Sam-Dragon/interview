@@ -21,5 +21,5 @@ A. In such cases, we can do couple of things <br>
    - Allow specific ip's to access the api [Not recommended]
    - Having agreement between the systems using certificates [public-private key certs]
    
-7. Can we revoke the token or blacklist it ?
+7. Can we revoke the token or blacklist it? <br>
 A. Yes, but generally not a good practice
