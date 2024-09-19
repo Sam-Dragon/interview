@@ -20,7 +20,7 @@
 
 > Design
 - It contains 3 sections separated by dots(.)
-  - header: it contains metadata information & encoded in BASE64 format
+  - header: it contains metadata information & encoded in BASE64 format <br>
     i.e type - type of header [jwt] <br>
         alg - algorithm used [HS256 and RS256 ]. If alg is missing, then token is unsecured 
         
