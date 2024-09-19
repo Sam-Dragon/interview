@@ -24,7 +24,7 @@
     i.e type - type of header [jwt] <br>
         alg - algorithm used [HS256 and RS256 ]. If alg is missing, then token is unsecured 
         
-  - payload: It contains user infromation & token related info. Dont put **sensative information**
+  - payload: It contains user infromation & token related info. Dont put **sensative information** <br>
     i.e sub: subject of the token <br>
         exp: token expiry time <br>
         iat: issued at <br>
