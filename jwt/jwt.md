@@ -1,9 +1,10 @@
 # JWT [Json Web Tokens]
 
+> JWT
 - It is json object which securely transmits information over the web
 - It can be used for authentication & information exchange 
 - Meant for stateless sessions
-- It must be sent over the **header**, not recommended to send over url or body
+- It must be sent over the **header**, not recommended to send over url or body<br>
   
 > Advantages <br>
 - Requires only one time authentication. rest will be taken care by tokens <br>
