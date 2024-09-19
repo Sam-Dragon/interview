@@ -21,16 +21,16 @@
 > Design
 - It contains 3 sections separated by dots(.)
   - header: it contains metadata information & encoded in BASE64 format
-    i.e type - type of header [jwt]
+    i.e type - type of header [jwt] <br>
         alg - algorithm used [HS256 and RS256 ]. If alg is missing, then token is unsecured 
         
-  - payload: It contains user infromation & token related info. Dont put **sensative information** <br>
+  - payload: It contains user infromation & token related info. Dont put **sensative information**
     i.e sub: subject of the token <br>
         exp: token expiry time <br>
         iat: issued at <br>
      
   - signature: This checks authenticity of the token. It specify hashing algorithm with your **secret key**. It combines header & payload with base64 encoding along with hash algorithm <br>
-      i.e  HASHINGALGO( base64UrlEncode(header) + “.” + base64UrlEncode(payload),secret) <br>
+      i.e  HASHINGALGO( base64UrlEncode(header) + “.” + base64UrlEncode(payload),secret)
     
 
 Example: Put this in "https://jwt.io/" <br>
