@@ -27,8 +27,7 @@
         exp: token expiry time <br>
         iat: issued at <br>
      
-  - signature: This checks authenticity of the token. It specify hashing algorithm with your **secret key** <br>
-    - It combines header & payload with base64 encoding along with hash algorithm <br>
+  - signature: This checks authenticity of the token. It specify hashing algorithm with your **secret key**. It combines header & payload with base64 encoding along with hash algorithm <br>
       i.e  HASHINGALGO( base64UrlEncode(header) + “.” + base64UrlEncode(payload),secret) <br>
     
 
