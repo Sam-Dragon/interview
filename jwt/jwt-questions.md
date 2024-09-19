@@ -1,6 +1,6 @@
 JWT
 
-1. why JWT tokens ? Advantages ? <br>
+1. Why JWT tokens ? Advantages ? <br>
 A. Json Web tokens are internet standard to exchange data securily between two parties<br>
    Advantages: Simplies authentication mechanism <br>
 
