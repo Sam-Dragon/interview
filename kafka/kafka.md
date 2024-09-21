@@ -14,7 +14,7 @@ A. Replication mechnism give high availability & durability
 
 4. Lets say broker of kafka goes down, what do you think will happen ? <br>
 A. If we have single broker, requests wont be processed <br>
-&nbsp;&nbsp; If we have multiple broker, re-assignment will happen by electing another broker as leader 
+&nbsp;&nbsp;  If we have multiple broker, re-assignment will happen by electing another broker as leader 
 
 6. can we stop kafka server ? If yes, what can be the disadvantages ? <br>
 A. Yes, we can stop kafka server gracefull using scripts. It abruptly terminated, we may lose messages and get some error messages as well 
