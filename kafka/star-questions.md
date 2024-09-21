@@ -2,6 +2,11 @@
 
 # Kafka
 
+#. Is kafka suitable for all scenarios ? If not, what is the alternate ?
+ - It is not suitable in case where we just need P2P communication or single request-response model.
+ - If it is UI driven, we will cache to store the data
+ - If it is backend driven, we will use utilties like resttemplate, finclient etc..
+
 #. Explain the difference between queue & kafka ? <br>
  - Order: Queue maintains FIFO order but kafka cannot as it is distributed in nature
  - Storage: Queue deletes the messages once consumed by all consumers whereas kafka storage is configurable due to advance storage systems & retention policies
