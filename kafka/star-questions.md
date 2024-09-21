@@ -29,4 +29,4 @@
  - Yes. by using completable future method of 'completableFuture.join()' or  using directly reading sendResult.get(Timeout)
 
 #. How would you decide number of partitions per topic? <br>
- - It can be equal to number of consumers or more than that
+ - It can be equal to number of consumers or more than that & also replication factor also must be same
