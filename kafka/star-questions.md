@@ -20,7 +20,7 @@
 #. Which partitions will messages goes if the replica set is 3 ? <br>
  - It will depend on the messages u send. <br>
     &nbsp;&nbsp;&nbsp; - If the message is has plain text, it will go to any of the partition & we may lose updates <br>
-    &nbsp;&nbsp;&nbsp; - If the message is provided in form key-value pair, it will go to specific partition ensuring updates are sequencial  
+    &nbsp;&nbsp;&nbsp; - If the message is provided in form key-value pair, it will go to specific partition ensuring updates are sequencial
 
 #. Can to maintain order in kafka messages ? If yes, How ? <br>
  - By producing message on same key [Ex: Account credit/debit based on account no] 
@@ -28,3 +28,5 @@
 #. Can kafka send synchronous request. Basically it is only used asynchronously ? <br>
  - Yes. by using completable future method of 'completableFuture.join()' or  using directly reading sendResult.get(Timeout)
 
+#. How would you decide number of partitions per topic? <br>
+ - It can be equal to number of consumers or more than that
