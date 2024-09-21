@@ -13,7 +13,6 @@
  - Size: Queue has default size of 64KB whereas kafka has 1MB
  - Complexity: Queue is easy to learn and implement whereas kafka is very complex in nature
     
-
 #. If i have to take down applications, whether kafka server also will go down or do we need to terminate ? <br>
  - No, kafka server needs to be explicily stopped that to gracefully, failing to do so we may see older pods will continue to consume new messages and we may lose that data 
 
@@ -30,3 +29,6 @@
 
 #. How would you decide number of partitions per topic? <br>
  - It can be equal to number of consumers or more than that & also replication factor also must be same
+
+#. can we read messages from certain point or data from topic? <br> [**TRY THIS**]
+ - Yes, using partition & offset
