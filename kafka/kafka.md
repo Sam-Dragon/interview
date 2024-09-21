@@ -12,8 +12,8 @@ A. It can be physical computer or virtual machine which runs kafka processes. <b
 3. Hou kafka ensure data durability ? 
 A. Replication mechnism give high availability & durability
 
-4. Lets say broker of kafka goes down, what do you think will happen ?
-A. If we have single broker, kafka will be down
+4. Lets say broker of kafka goes down, what do you think will happen ? <br>
+A. If we have single broker, kafka will be down <br>
 &nbsp; If we have multiple broker, re-assignment will happen by electing another broker as leader 
 
 6. can we stop kafka server ? If yes, what can be the disadvantages ? <br>
