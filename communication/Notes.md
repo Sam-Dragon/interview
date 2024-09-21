@@ -10,4 +10,4 @@
 - In this of communication, the services doesnt block the operation & response is sent in future
 
 > Implentation
-- Request/Response model: Event driven method - Topic driven / Queue driven
+- Request/Response model: Event driven method - Rest over http [Async way], Topic driven / Queue driven
