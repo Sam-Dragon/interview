@@ -9,5 +9,8 @@ A. It can be physical computer or virtual machine which runs kafka processes. <b
   &nbsp;&nbsp;&nbsp; - It manages Kafka topics, handles the storage of data into topic partitions, <br>
   &nbsp;&nbsp;&nbsp;&nbsp;   manages replication of data for fault tolerance, and serves client requests (from both Producers and Consumers).
 
-3. can we stop kafka server ? If yes, what can be the disadvantages ? <br>
+3. Hou kafka ensure data durability ? 
+- Replication mechnism give high availability & durability 
+
+4. can we stop kafka server ? If yes, what can be the disadvantages ? <br>
 A. Yes, we can stop kafka server gracefull using scripts. It abruptly terminated, we may lose messages and get some error messages as well 
