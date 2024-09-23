@@ -30,5 +30,10 @@
 #. How would you decide number of partitions per topic? <br>
  - It can be equal to number of consumers or more than that & also replication factor also must be same
 
-#. can we read messages from certain point or data from topic? [**TRY THIS**] <br>
+#. Can we read messages from certain point or data from topic? [**TRY THIS**] <br>
  - Yes, using partition & offset
+
+#. What is rule b/w partitions & consumers ?
+ - Generally, the number of partitions must be equals to number of consumers
+ - We can have more partitions against consumers
+ - We cannot have more consumers than the partitions as the additional servers will sit idle
