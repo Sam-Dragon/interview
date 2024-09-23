@@ -30,5 +30,5 @@
 #. How would you decide number of partitions per topic? <br>
  - It can be equal to number of consumers or more than that & also replication factor also must be same
 
-#. can we read messages from certain point or data from topic? <br> [**TRY THIS**]
+#. can we read messages from certain point or data from topic? [**TRY THIS**] <br>
  - Yes, using partition & offset
