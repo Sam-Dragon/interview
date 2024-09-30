@@ -9,7 +9,7 @@ A. It can be physical computer or virtual machine which runs kafka processes. <b
   &nbsp;&nbsp;&nbsp; - It manages Kafka topics, handles the storage of data into topic partitions, manages replication of data for fault tolerance, and serves client requests (from both Producers and Consumers).
 
 3. How kafka ensure data durability ? <br>
-A. Replication mechnism give high availability & durability
+A. Replication mechanism give high availability & durability
 
 4. Lets say broker of kafka goes down, what do you think will happen ? <br>
 A. If we have single broker, requests wont be processed <br>
