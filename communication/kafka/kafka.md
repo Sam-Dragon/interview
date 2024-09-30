@@ -6,8 +6,7 @@ A. producer, consumer, broker, message/event
 2. What is kafka broker <br>
 A. It can be physical computer or virtual machine which runs kafka processes. <br> 
   &nbsp;&nbsp;&nbsp; - Server which accepts events from producer & stores in its hard disk <br> 
-  &nbsp;&nbsp;&nbsp; - It manages Kafka topics, handles the storage of data into topic partitions, <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;   manages replication of data for fault tolerance, and serves client requests (from both Producers and Consumers).
+  &nbsp;&nbsp;&nbsp; - It manages Kafka topics, handles the storage of data into topic partitions, manages replication of data for fault tolerance, and serves client requests (from both Producers and Consumers).
 
 3. How kafka ensure data durability ? <br>
 A. Replication mechnism give high availability & durability
