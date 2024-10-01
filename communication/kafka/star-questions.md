@@ -39,5 +39,8 @@
  - Ideally, error handler must be configured such that we can backup the failed record in topic called Dead Letter Topic[DLT]
  - Dead letter topic are designed for the purpose of storing the failed records, such that it can be reviewed and processed later
 
+#. Let say due to workload traffic, i have scaled my application by increasing instances. How do you ensure duplicate messages are not consumed?
+ - Consumer groups  
+
 #. Can we read messages from certain point or data from topic? [**TRY THIS**] <br>
  - Yes, using partition & offset
