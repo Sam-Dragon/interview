@@ -42,5 +42,11 @@
 #. Let say due to workload traffic, i have scaled my application by increasing instances. How do you ensure duplicate messages are not consumed?
  - Consumer groups  
 
+#. How to avoid duplicate messages in kafka? How would you achieve it
+ - It can achieved by following ways
+   - Make producer idempotent
+   - Make consumer idempotent
+   - Use Transactions
+
 #. Can we read messages from certain point or data from topic? [**TRY THIS**] <br>
  - Yes, using partition & offset
