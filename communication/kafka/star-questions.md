@@ -50,3 +50,9 @@
 
 #. Can we read messages from certain point or data from topic? [**TRY THIS**] <br>
  - Yes, using partition & offset
+
+#. where does kafka stores the messages ?
+ - It is stored in logs [WAP]
+
+#. Why cant we use databases to store kafka messages ?
+ - As kafka process large set of records, we cannot store in databases as databases also has drawbacks
