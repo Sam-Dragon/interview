@@ -1,0 +1,13 @@
+# Relational Database
+- They used for storing the data <br>
+**Example**: hql, mysql, postgres
+
+# Usecase
+- e-commerce, banking, health care
+
+# Advantage
+- Structured data
+- data consistency
+- transaction support
+- acid properties
+- joins, triggers, procedures
