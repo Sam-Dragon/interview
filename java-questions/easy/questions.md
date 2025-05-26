@@ -26,13 +26,13 @@ A. true & false & true - false [third expression will also evaluated] <br>
 
 9. What is ternary operator ? when to use ? any advantage ? <br>
 A. Special operator to evaluate expression on condition to produce result [similiar to if/else] <br>
-   **Advantage**: Increase code readability
-   &nbsp;&nbsp;&nbsp;  (a > b) ? a : b; 
+   **Advantage**: Increase code readability <br>
+   Example: (a > b) ? a : b; 
 
 10. What is instanceOf operator ? When to use ? any advantage ? <br>
 A. instanceOf is special operator which checks object to specific class type <br>
-   It is generally used when classes are under inheritance to prevent 'ClassCastException'
-   &nbsp;&nbsp;&nbsp;  obj instanceOf MyClass
+   It is generally used when classes are under inheritance to prevent 'ClassCastException' <br>
+   Example: obj instanceOf MyClass
 
-11. what decides the execution flow of expression ?
+11. what decides the execution flow of expression ? <br>
 A. BODMAS rule
