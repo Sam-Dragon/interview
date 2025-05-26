@@ -1,6 +1,6 @@
 # Reverse Proxy
 - Mainly useful when proxy is required for server
-- It is responsible for navigating to applications based on context on server side 
+- It is responsible for navigating to applications based on context on server side <br>
   **Example**: nginx
  
 # Scenario
