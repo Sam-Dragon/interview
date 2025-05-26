@@ -10,4 +10,5 @@
 - data consistency
 - transaction support
 - acid properties
+- vertical scaling
 - joins, triggers, procedures
