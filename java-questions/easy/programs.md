@@ -6,4 +6,11 @@
    print x, a  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        print x, a <br><br>
 A. x = 101,a = 101  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                           x = 101,a = 100
 
-2.
+2. Program to display stars in triangle form <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br>
+&nbsp;&nbsp;&nbsp;&nbsp;      *   * <br>
+&nbsp;&nbsp;&nbsp;     *   *   * <br>
+&nbsp;&nbsp;   *   *   *   * <br>
+&nbsp; *   *   *   *   * <br>
+
+4. 
