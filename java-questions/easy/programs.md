@@ -7,10 +7,17 @@
 A. x = 101,a = 101  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                           x = 101,a = 100
 
 2. Program to display stars in triangle form <br>
+A. Following is the required output <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br>
 &nbsp;&nbsp;&nbsp;&nbsp;      *   * <br>
 &nbsp;&nbsp;&nbsp;     *   *   * <br>
 &nbsp;&nbsp;   *   *   *   * <br>
 &nbsp; *   *   *   *   * <br>
 
-4. 
+3. program to display output using single loop ? <br>
+A. Following is the required output  <br>
+&nbsp;&nbsp; 5 &nbsp;&nbsp; 1 <br>
+&nbsp;&nbsp; 4 &nbsp;&nbsp; 2 <br>
+&nbsp;&nbsp; 3 &nbsp;&nbsp; 3 <br>
+&nbsp;&nbsp; 2 &nbsp;&nbsp; 4 <br>
+&nbsp;&nbsp; 1 &nbsp;&nbsp; 5 <br>
