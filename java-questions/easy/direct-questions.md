@@ -34,5 +34,48 @@ A. instanceOf is special operator which checks object to specific class type <br
    It is generally used when classes are under inheritance to prevent 'ClassCastException' <br>
    Example: obj instanceOf MyClass
 
-11. what decides the execution flow of expression ? <br>
+11. What decides the execution flow of expression ? <br>
 A. BODMAS rule
+
+12. what are statements and loops ? <br>
+A. Statements executes single execution code [top to bottom] but loops to recurrsively iterates the same execution code <br>
+   &nbsp;&nbsp;&nbsp; Statements: if-else, switch, break, continue, return
+   &nbsp;&nbsp;&nbsp;      Loops: do-while, while, for, for-each
+
+13. Difference between while and do-while loop ? <br>
+A. do-while executes once irrespective of condition where as while adheres to condition. <br>
+while is considered as more efficient <br>
+   Scenarios: do-while is useful for Menu-Driven Programs, password entry whereas while is Event Handling, Continous monitoring
+   
+14. How would you write infinite for-loop, while & do-while loop, where are they useful ? <br>
+A. for (;;), while(true), do {} while(true) <br>
+   Scenarios: In cases where you want to continuesly monitor something use while and do-while
+
+15. What will happen if i run continues loop basically infinite loop ? <br>
+A. Heap will run out of memory and out of memory error will come
+
+16. In which cases for loop with indexes are useful ? <br>
+A. Generally, when you want to toggle the data with indexes say alternate numbers, every three number of array etc..
+
+17. Give me usecase where we use switch statement ? <br>
+A. Switch cases are specifically useful when you want to pre-define values <br>
+   &nbsp;&nbsp;&nbsp; Example: bank interest rates, transaction charges, currency values
+
+18. Difference between return and system.exit() ? <br>
+A. Generally, return just gracefully terminates the execution but still allows caller method to execute
+   &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution either normal [System.exit(0)] or abnormal way [System.exit(1)]
+
+19. In which case finally block executes, if the statements are called before them ? <br>
+A. Even if method returns the values, still finally block will be called
+   &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution and finally block wont be executed
+
+20. How many ways can we terminate the program ?
+A.  Currently, there are many ways we can terminate the program
+> Graceful way
+  - return
+  - System.exit(0)
+> Abnormal way
+  - System.exit(1)
+  - Recurrsion
+  - Deadlock
+  - Sleep infinitely
