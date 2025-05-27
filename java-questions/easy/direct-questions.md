@@ -62,15 +62,15 @@ A. Switch cases are specifically useful when you want to pre-define values <br>
    &nbsp;&nbsp;&nbsp; Example: bank interest rates, transaction charges, currency values
 
 18. Difference between return and system.exit() ? <br>
-A. Generally, return just gracefully terminates the execution but still allows caller method to execute
+A. Generally, return just gracefully terminates the execution but still allows caller method to execute <br>
    &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution either normal [System.exit(0)] or abnormal way [System.exit(1)]
 
 19. In which case finally block executes, if the statements are called before them ? <br>
-A. Even if method returns the values, still finally block will be called
+A. Even if method returns the values, still finally block will be called <br>
    &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution and finally block wont be executed
 
-20. How many ways can we terminate the program ?
-A.  Currently, there are many ways we can terminate the program
+20. How many ways can we terminate the program ? <br>
+A.  Currently, there are many ways we can terminate the program <br>
 > Graceful way
   - return
   - System.exit(0)
