@@ -1,4 +1,5 @@
 # Tips & Tricks
 
-> Programs
-- keep an eye on question and decide which loop fits better [try while or do-while loop first followed by for-each]
+> **Programs**
+- Decide which loop fits better [do-while, while, for, for-each, streams]
+- Find whether statements are required [if-else, switch, break, continue, return]
