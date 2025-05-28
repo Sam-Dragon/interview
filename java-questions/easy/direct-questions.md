@@ -102,5 +102,5 @@ A. Obviously, yes
 27. What advantage do we get from String being immutable ? <br>
 A. Sharing resource
 
-28. How would you search a string from list ?
+28. How would you search a string from list ? <br>
 A. Linear Search, Binary Search etc.. 
