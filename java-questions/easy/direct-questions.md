@@ -70,7 +70,7 @@ A. Even if method returns the values, still finally block will be called <br>
    &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution and finally block wont be executed
 
 20. How many ways can we terminate the program ? <br>
-A.  Currently, there are many ways we can terminate the program <br>
+A. Currently, there are many ways we can terminate the program <br>
 > Graceful way
   - return
   - System.exit(0)
@@ -79,3 +79,28 @@ A.  Currently, there are many ways we can terminate the program <br>
   - Recurrsion
   - Deadlock
   - Sleep infinitely
+
+21. Is String a class (OR) datatype ? <br>
+A. String is a class and all classes are datatype [user-defined datatype]
+
+22. What are the ways in which we you can create object ? <br>
+A. It can created as literal, new object, new object(char array), new String(StringBuffer), , new String(StringBuildr), toString()
+
+23. How are string stored in below java-8 and after java-8 ? <br>
+A. Java-8 before, string literal are stored in String Constant Pool inside Heap, string objects in heap <br>
+   Java-8 after, string are stored inside Heap
+
+24. If we dont reference a string, will its value change ? <br>
+A. No, because they are immutable
+
+25. What is the danger of String Constant Pool ? <br>
+A. String Constant Pool data is not controlled by programmer and lives long. If hacker gain access, its dangerous
+
+26. String class is immutable, are object too immutable ? <br>
+A. Obviously, yes
+
+27. What advantage do we get from String being immutable ? <br>
+A. Sharing resource
+
+28. How would you search a string from list ?
+A. Linear Search, Binary Search etc.. 
