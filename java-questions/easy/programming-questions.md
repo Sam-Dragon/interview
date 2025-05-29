@@ -15,5 +15,5 @@ A. x = 101,a = 101  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                              
    string.concat("world"); <br>
    stringBuffer.concat("world"); <br>
    
-   System.out.println(string + " >> " + stringBuffer); <br>
+   System.out.println(string + " >> " + stringBuffer); <br><br>
 A. hello >> helloworld
