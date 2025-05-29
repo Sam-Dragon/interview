@@ -21,3 +21,21 @@ A. Following is the required output  <br>
 &nbsp;&nbsp; 3 &nbsp;&nbsp; 3 <br>
 &nbsp;&nbsp; 2 &nbsp;&nbsp; 4 <br>
 &nbsp;&nbsp; 1 &nbsp;&nbsp; 5 <br>
+
+4. program to check if number is palindrome
+A. I/P - Integer number = 1234321
+
+5. program to understand the output of String and String Buffer
+A. what will be the output of the following snippet
+   String string = "hello-"; <br>
+   StringBuffer stringBuffer = new StringBuffer(input);
+   
+   string.concat("world"); <br>
+   stringBuffer.concat("world"); <br>
+   
+   System.out.println(string) <br>
+   System.out.println(stringBuffer) <br>
+
+7. Program to reverse the string
+A. I/P - String s = "constants"; <br>
+   O/P - "stnatsnoc"
