@@ -22,3 +22,7 @@ A. I/P - Integer number = 1234321
 4. Program to reverse the string ? <br>
 A. I/P - String s = "constants"; <br>
    O/P - "stnatsnoc"
+
+5. Program to extract the string from the input string ? <br>
+A. I/P - String s = "constantinople"; <br>
+   O/P - "tantino"
