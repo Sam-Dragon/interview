@@ -118,3 +118,7 @@ A. It can be created with default constructor or constructor with String args
 32. Does String Buffer / String Builder required reference for update ? <br>
 A. No, they are mutable and internally updated
 
+33. Difference between String and String Buffer / String Builder ? <br>
+A. String are immutable objects whereas String Builder / String Buffer are mutable in nature <br>
+String and StringBuffer are thread-safe where as StringBuilder is not <br>
+String can be created many ways whereas String Buffer / String Builder are created using string only
