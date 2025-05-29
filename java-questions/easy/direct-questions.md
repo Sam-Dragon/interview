@@ -103,4 +103,18 @@ A. Obviously, yes
 A. Sharing resource
 
 28. How would you search a string from list ? <br>
-A. Linear Search, Binary Search etc.. 
+A. Linear Search, Binary Search etc..
+
+29. How would you modify the content of String ? <br>
+A. Either using String Buffer / String Builder
+
+30. Can you explain difference between String Builder and String Buffer ? <br>
+A. String Builder - not synchronized, fast, single-threaded <br>
+   String Buffer - synchronized, slow, multi-threaded
+
+31. How to create String Buffer / String Builder ? <br>
+A. It can be created with default constructor or constructor with String args
+
+32. Does String Buffer / String Builder required reference for update ? <br>
+A. No, they are mutable and internally updated
+
