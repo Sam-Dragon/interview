@@ -152,15 +152,26 @@ A. It is process of changing the datatype <br>
 A. It is two dimensional array which is used storing the data <br>
    It is created same way as 1D array
 
-42. Can we interchange static & void in main method ? <br>
-A. Yes
-
-43. Can we create main() method of my own ? <br>
-A. Yes
-
-44. What is Jagged Arrays ? Rules to create ? <br>
+42. What is Jagged Arrays ? Rules to create ? <br>
 A. Arrays with variable size but works in multi-dimesional array <br>
    Rules: They are created with initial length
 
-45. Can i create array in array ? <br>
+43. Can i create array in array ? <br>
 A. Yes
+
+44. Can we interchange static & void in main method ? <br>
+A. Yes
+
+45. Can we create main() method of my own ? <br>
+A. Yes
+
+46. Can we call main() method of class from another ? <br>
+A. Yes
+
+47. How are command-line args are read ? <br>
+A. Strings
+
+48. How are escape big string in command-line args ? <br>
+A. Put it inside the quotes
+
+
