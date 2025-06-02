@@ -12,4 +12,5 @@ A. For positive, just use power of 2 <br>
 3. Programatically can you perform operations on numbers ? <br>
 A. Binary Operators
 
-4. 
+4. How to make arrays thread-safe ? <br>
+A. 
