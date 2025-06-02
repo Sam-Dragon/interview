@@ -28,7 +28,8 @@ A. I/P - String s = "constantinople"; <br>
    O/P - "tantino"
 
 6. Program to transpose of matrix ? <br>
-A. I/P <br>
+A. Following are the input and output <br>
+   I/P <br>
    &nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3 &nbsp;&nbsp; 4 <br>
    &nbsp;&nbsp; 5 &nbsp;&nbsp; 6 &nbsp;&nbsp; 7 &nbsp;&nbsp; 8 <br>
    &nbsp;&nbsp; 9 &nbsp;&nbsp; 9 &nbsp;&nbsp; -1 &nbsp;&nbsp; 2 <br>
@@ -38,3 +39,10 @@ A. I/P <br>
    &nbsp;&nbsp; 2 &nbsp;&nbsp; 6 &nbsp;&nbsp; 9 <br>
    &nbsp;&nbsp; 3 &nbsp;&nbsp; 7 &nbsp;&nbsp; -1 <br>
    &nbsp;&nbsp; 4 &nbsp;&nbsp; 8 &nbsp;&nbsp; 2 <br>
+
+7. For multi-dimensional array, how would you iterate using single loop <br>
+A. Following are the input and output <br>
+   I/P <br>
+   &nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3 <br>
+   &nbsp;&nbsp; 5 &nbsp;&nbsp; 6 &nbsp;&nbsp; 7 <br>
+   &nbsp;&nbsp; 9 &nbsp;&nbsp; 9 &nbsp;&nbsp; -1 <br>
