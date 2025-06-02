@@ -28,12 +28,12 @@ A. I/P - String s = "constantinople"; <br>
    O/P - "tantino"
 
 6. Program to transpose of matrix ? <br>
-A. I/P
+A. I/P <br>
    &nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3 &nbsp;&nbsp; 4 <br>
    &nbsp;&nbsp; 5 &nbsp;&nbsp; 6 &nbsp;&nbsp; 7 &nbsp;&nbsp; 8 <br>
    &nbsp;&nbsp; 9 &nbsp;&nbsp; 9 &nbsp;&nbsp; -1 &nbsp;&nbsp; 2 <br>
 
-   O/P
+   O/P <br>
    &nbsp;&nbsp; 1 &nbsp;&nbsp; 5 &nbsp;&nbsp; 9 <br>
    &nbsp;&nbsp; 2 &nbsp;&nbsp; 6 &nbsp;&nbsp; 9 <br>
    &nbsp;&nbsp; 3 &nbsp;&nbsp; 7 &nbsp;&nbsp; -1 <br>
