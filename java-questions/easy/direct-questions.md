@@ -84,7 +84,7 @@ A. Currently, there are many ways we can terminate the program <br>
 A. String is a class and all classes are datatype [user-defined datatype]
 
 22. What are the ways in which we you can create object ? <br>
-A. It can created as literal, new object, new object(char array), new String(StringBuffer), , new String(StringBuildr), toString()
+A. It can created as literal, new object, new object(char array), new String(StringBuffer), new String(StringBuildr), toString()
 
 23. How are string stored in below java-8 and after java-8 ? <br>
 A. Java-8 before, string literal are stored in String Constant Pool inside Heap, string objects in heap <br>
@@ -122,3 +122,45 @@ A. No, they are mutable and internally updated
 A. String are immutable objects whereas String Builder / String Buffer are mutable in nature <br>
 String and StringBuffer are thread-safe where as StringBuilder is not <br>
 String can be created many ways whereas String Buffer / String Builder are created using string only
+
+34. What is array ? <br>
+A. array is collection of elements
+
+35. Will array contains same datatype element or different type ?  <br>
+A. same datatype only
+
+36. Where are arrays contents are stored ? <br>
+A. Generally, arrays are stored on dynamic memory of heap
+
+37. What are array types ? <br>
+A. Arrays are categorized based on dimensions. 1D, 2D, 3D...
+
+38. How many ways can you create arrays ? <br>
+A. Arrays can be created using literal or arrays <br>
+    var arr = {1,2,3}; <br>
+    var arr = new int[]{1,2,3}; <br>
+    var arr = new int[3];
+
+39. Can we interchange square brackets while declaring arrays ? <br>
+A. Yes. int[] arr; (OR) int arr[];
+
+40. What is type casting ? what is cast operator ? <br>
+A. It is process of changing the datatype <br>
+   cast operator is used for performing type casting
+
+41. What is 2D array ? How to create it <br>
+A. It is two dimensional array which is used storing the data <br>
+   It is created same way as 1D array
+
+42. Can we interchange static & void in main method ? <br>
+A. Yes
+
+43. Can we create main() method of my own ? <br>
+A. Yes
+
+44. What is Jagged Arrays ? Rules to create ? <br>
+A. Arrays with variable size but works in multi-dimesional array <br>
+   Rules: They are created with initial length
+
+45. Can i create array in array ? <br>
+A. Yes
