@@ -200,10 +200,6 @@ A.  Class defines model for objects and it physically doesnt not exists <br>
 A.  Encapsulation is process of wrapping up variables and methods and securing the data <br>
     variables are marked 'private' and methods as 'public' <br>
     Example - class <br>
-    **Advantages**:
-    > Security <br>
-    > Reusability of variables <br>
-    > Validation can be placed <br>
+    **Advantages**: Security, Reusability of variables, Validation can be placed
     
-
 56. 
