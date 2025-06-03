@@ -202,4 +202,20 @@ A.  Encapsulation is process of wrapping up variables and methods and securing t
     Example - class <br>
     **Advantages**: Security, Reusability of variables, Validation can be placed
     
-56. 
+55. Explain Abstraction ? Advantage ? Example <br>
+A.  Abstraction is process of hiding the details <br>
+    create a method which expose only required details. Say employee basic info but database may contain additional info <br>
+    Example - class <br>
+    **Advantages**: Security
+
+56. Explain Inheritance ? Advantage ? Example <br>
+A.  Inheritance is process of accessing the features <br>
+    just extend to class or implement an interface <br>
+    Example - King of the kingdom <br>
+    **Advantages**: Reusability, Extensibility
+
+57. Explain Polymorphism ? Advantage ? Example <br>
+A.  Polymorphism is process which means many forms <br>
+    method with different arguments or method with same arguments but different types <br>
+    Example - Human Beings <br>
+    **Advantages**: Extensibility
