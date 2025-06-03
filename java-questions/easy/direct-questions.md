@@ -219,3 +219,55 @@ A.  Polymorphism is process which means many forms <br>
     method with different arguments or method with same arguments but different types <br>
     Example - Human Beings <br>
     **Advantages**: Flexibility
+
+58. What is hashcode ? How is it useful ? algo used for designing it ? <br>
+A. Hashcode is unique hexadecimal representation address of the object <br>
+   It is used as key/Id in many cases <br>
+   Algo used for hascode can use either HashMap, HashSet or HashTable
+
+59. If i create custom class 'Test' with one variable 'name' & if i create object of it, what will be name value ? <br>
+A. It will be 'null' [Defaults will be set for each datatype]
+
+60. What are different memory sections in JVM where object content is stored.? <br> 
+A. Stack - local variables, method calls, references to object on heap <br>
+   Heap - stores objects and dynamic memory <br>
+   Metaspace - metadata of the class
+
+61. Are the object of custom class mutable in nature ? <br>
+A. Yes, they are designed for that reason only
+
+62. Can we share objects over the network ? <br>
+A. Yes but it must be in the form of bytes [Serialization / Deserialization]
+
+63. What are access specifiers ? Explain its types ? relevance of each of it ? <br>
+A. As name suggests, access specifiers are used to provide access to its members & methods of the class <br>
+   public - can be accessed from anywhere <br>
+   private - can be accessed only within the class <br>
+   default - can be accessed only within the package <br>
+   **protected** - can be access within and outside package but must be under inheritance <br>
+
+64. Explain constructors ? Types ? Invoked ? <br>
+A.  They are special method without any return type and used for initializing the object <br>
+    **Types**: default & parameterized constructor <br>
+    They can be invoked either while creating the object using 'new' keyword <br>
+    or it can be invoked via inheritance using 'extends' keyword
+
+65. Advantages of contructors ? <br>
+A.  Validation, Initialization
+
+66. When is constructor called before or after creation of object? <br>
+A. Basically, it is called during the process of creation
+
+67. What is constructor overloading ? <br>
+A. It is the process of creating method with same name but different arguments
+
+68. What is constructor chaining ? <br>
+A. It is the process of chaining the constructor on initilization generally via inheritance
+
+69. Can we return from a constructor ? <br>
+A. Yes, but without any value
+
+70. Is it necessary to define no-args constructor when defining parameterized constructor ? <br>
+A. Yes
+
+71. 
