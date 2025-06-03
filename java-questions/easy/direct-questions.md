@@ -136,10 +136,7 @@ A. Generally, arrays are stored on dynamic memory of heap
 A. Arrays are categorized based on dimensions. 1D, 2D, 3D...
 
 38. How many ways can you create arrays ? <br>
-A. Arrays can be created using literal or arrays <br>
-    var arr = {1,2,3}; <br>
-    var arr = new int[]{1,2,3}; <br>
-    var arr = new int[3];
+A. Arrays can be created using literal or array objects <br>
 
 39. Can we interchange square brackets while declaring arrays ? <br>
 A. Yes. int[] arr; (OR) int arr[];
@@ -156,22 +153,23 @@ A. It is two dimensional array which is used storing the data <br>
 A. Arrays with variable size but works in multi-dimesional array <br>
    Rules: They are created with initial length
 
-43. Can i create array in array ? <br>
+43. Can we change the contents of array even if is marked as final ? <br>
+A. Yes, as they are mutable in nature
+
+44. Can i create array in array ? <br>
 A. Yes
 
-44. Can we interchange static & void in main method ? <br>
+45. Can we interchange static & void in main method ? <br>
 A. Yes
 
-45. Can we create main() method of my own ? <br>
+46. Can we create main() method of my own ? <br>
 A. Yes
 
-46. Can we call main() method of class from another ? <br>
+47. Can we call main() method of class from another ? <br>
 A. Yes
 
-47. How are command-line args are read ? <br>
+48. How are command-line args are read ? <br>
 A. Strings
 
-48. How are escape big string in command-line args ? <br>
+49. How are escape big string in command-line args ? <br>
 A. Put it inside the quotes
-
-
