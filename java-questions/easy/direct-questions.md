@@ -218,4 +218,4 @@ A.  Inheritance is process of accessing the features <br>
 A.  Polymorphism is process which means many forms <br>
     method with different arguments or method with same arguments but different types <br>
     Example - Human Beings <br>
-    **Advantages**: Extensibility
+    **Advantages**: Flexibility
