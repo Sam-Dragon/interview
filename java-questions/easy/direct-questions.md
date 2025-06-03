@@ -205,7 +205,7 @@ A.  Encapsulation is process of wrapping up variables and methods and securing t
 55. Explain Abstraction ? Advantage ? Example <br>
 A.  Abstraction is process of hiding the details <br>
     create a method which expose only required details. Say employee basic info but database may contain additional info <br>
-    Example - class <br>
+    Example - interface <br>
     **Advantages**: Security
 
 56. Explain Inheritance ? Advantage ? Example <br>
