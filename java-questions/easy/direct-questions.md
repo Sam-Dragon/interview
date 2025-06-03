@@ -173,3 +173,37 @@ A. Strings
 
 49. How are escape big string in command-line args ? <br>
 A. Put it inside the quotes
+
+50. Difference between Procedure based vs Object Oriented based approach ? <br>
+A. Procedure based approach hard to understand, increases complexity <br>
+   Object Oriented based approach opposite of it also it provides reusability
+
+51. Difference between Object based vs Object Oriented based approach ? <br>
+A. Object based approach similar to Object oriented but it doesnt support inheritance <br>
+   Object based - javascript, vbscript <br>
+   Object oriented - java, c++
+
+52. Explain OOPS concepts ? Give some real world example ?
+A.  Class/Objects <br>
+    Encapsulation <br>
+    Abstraction <br>
+    Inheritance <br>
+    Polymorphism <br>
+
+53. Difference between class and object ? where are they stored ? Give Example. <br>
+A.  Class defines model for objects and it physically doesnt not exists <br>
+    whereas object is instance of class <br>
+    Class is store in method area whereas objects are stored on heap memory of jvm <br>
+    Example: Class - Car, Object - Maruti, Benz etc..
+
+54. Explain Encapsulation ? Advantage ? Example <br>
+A.  Encapsulation is process of wrapping up variables and methods and securing the data <br>
+    variables are marked 'private' and methods as 'public' <br>
+    Example - class <br>
+    **Advantages**:
+    > Security <br>
+    > Reusability of variables <br>
+    > Validation can be placed <br>
+    
+
+56. 
