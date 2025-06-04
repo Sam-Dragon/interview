@@ -270,4 +270,16 @@ A. Yes, but without any value
 70. Is it necessary to define no-args constructor when defining parameterized constructor ? <br>
 A. Yes
 
-71. 
+71. Difference between default and parameterized constructor ? <br>
+A.  default constructor - automatically added by jvm, no args, always one construtor, sets defaults <br>
+    parameterzied constructor - must be explicitly defined, some args, multiple constructors, sets provided values <br>
+
+72. Difference between default and no-args constructor ? <br>
+A.  default constructor - automatically added by jvm <br>
+    no-args constructor - must be explicitly defined, generally used in conjunction with parameterized constructor <br>
+
+73. Difference between constructor and method ? <br>
+A.  constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
+    method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
+
+74. 
