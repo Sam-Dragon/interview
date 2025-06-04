@@ -1,5 +1,3 @@
-# Programming Questions
-
 # Programs based questions
 
 1. Given a program, what will be the output of it.? <br>
