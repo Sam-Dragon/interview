@@ -256,19 +256,19 @@ A.  They are special method without any return type and used for initializing th
 A.  Validation, Initialization
 
 66. When is constructor called before or after creation of object? <br>
-A. Basically, it is called during the process of creation
+A.  Basically, it is called during the process of creation
 
 67. What is constructor overloading ? <br>
-A. It is the process of creating method with same name but different arguments
+A.  It is the process of creating method with same name but different arguments
 
 68. What is constructor chaining ? <br>
-A. It is the process of chaining the constructor on initilization generally via inheritance
+A.  It is the process of chaining the constructor on initilization generally via inheritance
 
 69. Can we return from a constructor ? <br>
-A. Yes, but without any value
+A.  Yes, but without any value
 
 70. Is it necessary to define no-args constructor when defining parameterized constructor ? <br>
-A. Yes
+A.  Yes
 
 71. Difference between default and parameterized constructor ? <br>
 A.  default constructor - automatically added by jvm, no args, always one construtor, sets defaults <br>
@@ -279,7 +279,49 @@ A.  default constructor - automatically added by jvm <br>
     no-args constructor - must be explicitly defined, generally used in conjunction with parameterized constructor <br>
 
 73. Difference between constructor and method ? <br>
-A.  constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
-    method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
+A.  Constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
+    Method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
 
-74. 
+74. Which class is used for input/output streams ? <br>
+A.  System.in, System.out, System.err
+
+75. Do you know buffered reader, if yes, why it is used in conjunction with InputStream Reader/ Writer ? <br>
+A.  Basically, it buffers the input data for efficient reading / writing
+
+76. How many ways can you read input from keyboard ? <br>
+A.  It can be done using InputStreamReader & Scanner
+
+77. What kind of exception is throwing by Input / Output streams ? <br>
+A.  IOException - It is checked exception
+
+78. How many ways can you read a character from keyboard ? <br>
+A.  It can be read using buffered reader or scanner <br>
+    Buffered Reader - using read() or readLine().charAt(0) <br>
+    Scanner - using next().charAt(0) or nextLine().charAt(0) <br>
+
+79. What is the problem when we use read() followed by readLine().charAt(0) ? <br>
+A.  read() only takes single character and rest of the character will be pushed to readLine() which is incorrect <br>
+    Solution - just use readLine().charAt(0) (OR) bufferedReader.skip(2)
+
+80. What is the problem when we use next().charAt(0) followed by nextLine().charAt(0) ? <br>
+A.  same problem as read() and readLine() of buffer reader
+
+81. How many ways can you read a characters (OR) string from keyboard ? <br>
+A.  It can be read using buffered reader or scanner <br>
+    Buffered Reader - using readLine() <br>
+    Scanner - using nextLine() <br>
+
+82. How many ways can you read numbers from keyboard ? <br>
+A.  It can be read using buffered reader or scanner <br>
+    Buffered Reader - using read() (OR) readLine() in conjuction with wrapper class parse methods <br>
+    Scanner - using nextInt() (OR) nextFloat() (OR) nextDouble() and so on.. <br>
+
+83. How many ways can we split string and read the inputs ? <br>
+A.  It can be done using 'split()' method of String (OR) use StringTokenizer class
+
+84. Difference between StringTokenizer and String.split() ? which is efficient
+A.  StringTokenizer - legacy class, less efficient for single delimiter, doesnt return empty tokens
+    split() - method of string, highly efficient w.r.t delimiters, returns empty tokens
+
+85. How can you format the string output ?
+A.  It can be done using String.format() (OR) System.out.printf() 
