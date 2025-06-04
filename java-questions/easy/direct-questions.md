@@ -319,9 +319,9 @@ A.  It can be read using buffered reader or scanner <br>
 83. How many ways can we split string and read the inputs ? <br>
 A.  It can be done using 'split()' method of String (OR) use StringTokenizer class
 
-84. Difference between StringTokenizer and String.split() ? which is efficient
+84. Difference between StringTokenizer and String.split() ? which is efficient <br>
 A.  StringTokenizer - legacy class, less efficient for single delimiter, doesnt return empty tokens
     split() - method of string, highly efficient w.r.t delimiters, returns empty tokens
 
-85. How can you format the string output ?
+85. How can you format the string output ? <br>
 A.  It can be done using String.format() (OR) System.out.printf() 
