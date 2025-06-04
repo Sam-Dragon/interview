@@ -17,3 +17,23 @@ A. x = 101,a = 101  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                              
    
    System.out.println(string + " >> " + stringBuffer); <br><br>
 A. hello >> helloworld
+
+3. program to update the value of class with non-private variable.? <br>
+   class Example {
+       String name;
+
+       public void setName(String name) {
+         this.name = name;
+      }
+
+      public String getName() {
+         return name;
+      }
+   }
+
+   Example e = new Example();  <br>
+   e.name = "sam"; <br>
+   // call any method  <br>
+   e.setName("John");  <br>
+   System.out.print(e.name); <br><br>
+A. John
