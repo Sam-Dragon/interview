@@ -48,4 +48,22 @@ A. Following are the input and output <br>
    &nbsp;&nbsp; 9 &nbsp;&nbsp; 9 &nbsp;&nbsp; -1 <br>
 
 8. Program to differentiate between young and old employees <br>
-A. Try with streams
+A. I/P - age for men above 60 and women above 58 <br>
+   O/P - list of employees grouped
+
+10. Program to specify whether the current year is leap year or not ? <br>
+A.  I/P - year <br>
+    O/P - True or False <br>
+    Condition: if year % 100 == 0 and year % 400 == 0 (OR) year != 100 and year % 4 == 0
+   
+11. Program to print fibonacci series based on input ? <br>
+    I/P - 5 <br>
+    O/P - 0, 1, 1, 2, 3
+
+12. Program to display stars in triangle form, use String format method <br>
+A. Following is the required output <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br>
+&nbsp;&nbsp;&nbsp;&nbsp;      *   * <br>
+&nbsp;&nbsp;&nbsp;     *   *   * <br>
+&nbsp;&nbsp;   *   *   *   * <br>
+&nbsp; *   *   *   *   * <br>
