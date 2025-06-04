@@ -46,3 +46,6 @@ A. Following are the input and output <br>
    &nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3 <br>
    &nbsp;&nbsp; 5 &nbsp;&nbsp; 6 &nbsp;&nbsp; 7 <br>
    &nbsp;&nbsp; 9 &nbsp;&nbsp; 9 &nbsp;&nbsp; -1 <br>
+
+8. Program to differentiate between young and old employees <br>
+A. Try with streams
