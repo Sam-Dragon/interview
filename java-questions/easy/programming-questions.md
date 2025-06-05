@@ -17,21 +17,42 @@ A. x = 101,a = 101  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                              
 A. hello >> helloworld
 
 3. program to update the value of class with non-private variable.? <br>
-   class Example {
-       String name;
+   class Example { <br>
+       String name; <br>
+       public void setName(String name) { <br>
+         this.name = name; <br>
+      } <br>
+      public String getName() { <br>
+         return name; <br>
+      } <br>
+   } <br>
 
-       public void setName(String name) {
-         this.name = name;
-      }
-
-      public String getName() {
-         return name;
-      }
-   }
-
+   class Program { <br>
+   public static void main(String[] args) { <br>
    Example e = new Example();  <br>
    e.name = "sam"; <br>
    // call any method  <br>
    e.setName("John");  <br>
-   System.out.print(e.name); <br><br>
+   System.out.print(e.name); <br>
+   }  <br>
+   } <br><br>
 A. John
+
+4. program to update the value of class variable.? <br>
+   class Example { <br>
+       String name; <br>
+       public Example(String name) { <br>
+         this.name = name; <br>
+      } <br>
+      static void display() { <br>
+         System.out.print(name)
+      } <br>
+   } <br>
+
+   class Program { <br>
+   public static void main(String[] args) { <br>
+   Example e = new Example();  <br>
+   e.display(); <br>
+   }  <br>
+   } <br><br>
+A. Error: non-static to static access not possible
