@@ -67,3 +67,27 @@ A. Following is the required output <br>
 &nbsp;&nbsp;&nbsp;     *   *   * <br>
 &nbsp;&nbsp;   *   *   *   * <br>
 &nbsp; *   *   *   *   * <br>
+
+13. Program to find factorial of number based on input ? normal way & recurrsive way<br>
+A.  I/P - 5 <br>
+    O/P - 120 <br>
+
+14. Program to display prime number based on input size ? <br>
+A.  I/P - 5 <br>
+    O/P - 2,3,5,7,11 <br>
+
+15. Program to swap two numbers with temporary and without temporary variable ? <br>
+A.  I/P - 10  20 <br>
+    O/P - 20  10 <br>
+
+16. Program to swap two string with temporary and without temporary variable ? <br>
+A.  I/P - ram     samual <br>
+    O/P - samual  ram <br>
+
+17. Program to accept variable number of arguments and display them ? <br>
+A.  Following outputs are requied but with single method <br>
+    I/P - 10 <br>
+    O/P - 10 <br><br>
+
+    I/P - 10, 20 <br>
+    O/P - 10, 20 <br>
