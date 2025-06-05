@@ -86,8 +86,5 @@ A.  I/P - ram     samual <br>
 
 17. Program to accept variable number of arguments and display them ? <br>
 A.  Following outputs are requied but with single method <br>
-    I/P - 10 <br>
-    O/P - 10 <br><br>
-
-    I/P - 10, 20 <br>
-    O/P - 10, 20 <br>
+    I/P - 10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I/P - 10, 20 <br>
+    O/P - 10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; O/P - 10, 20 <br>
