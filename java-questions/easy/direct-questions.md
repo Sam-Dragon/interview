@@ -118,16 +118,16 @@ A. Java-8 before, string literal are stored in String Constant Pool inside Heap,
 A. No, because they are immutable
 
 26. What is the danger of String Constant Pool ? <br>
-A. String Constant Pool data is not controlled by programmer and lives long. If hacker gain access, its dangerous
+A.  String Constant Pool data is not controlled by programmer and lives long. If hacker gain access, its dangerous
 
 27. String class is immutable, are object too immutable ? <br>
-A. Obviously, yes
+A.  Obviously, yes
 
 28. What advantage do we get from String being immutable ? <br>
-A. Sharing resource
+A.  Sharing resource
 
 29. How would you search a string from list ? <br>
-A. Linear Search, Binary Search etc..
+A.  Linear Search, Binary Search etc..
 
 30. How would you modify the content of String ? <br>
 A. Either using String Buffer / String Builder
@@ -393,3 +393,33 @@ A.  Method used for creating objects by providing class name. <br>
 A.  To replace multiple overloaded methods we can use variable arguments <br>
     It can be defined with ... and must be the last argument of the method <br>
     Example: sum of 2'S, 3's, 4's numbers 
+
+97. Difference between coercion and conversion ?
+A.  Automatic conversion between different datatype done by compiler is called coercion <br>
+whereas explicit conversion of datatype done using cast operator by coder is called conversion
+
+98. Explain polymorphism ? Types ? Example ?
+A.  Polymorphism - many forms, variables and methods acts different on different methods <br>
+    Types - static and dynamic <br>
+    static - The process in which compiler knows the method to execute at compile time [Method Overloading]. Fees of bank  <br>
+    dynamic - The process in which compiler doesnt know the method to execute at compile time,  <br>
+    hence it decided at runtime by jvm based on object [Method Overriding]. Example - Interest of bank
+
+99. Explain Method Overloading ? Usage ? Example ? <br>
+A.  It is the process in which multiple methods with same class name but different method signatures <br>
+    It may vary by number of args, order of args or datatype of args <br>
+    It is mainly used with in the class and used for enhancing the functionality <br>
+    Example: skills improvement by employee
+
+100. Explain Method Overriding ? Usage ? Example ? <br>
+A.  It is the process in which multiple classes with same method name and same method signatures <br>
+    It must have exact same method signature and is applicable via inheritance <br>
+    It is mainly used with in the class and used for enhancing the functionality <br>
+    Example: learning different language
+
+101. How to make a class immutable ? Adv/dis
+A.   Make class as final, variable as private and instantitate with constructor and expose getter methods <br>
+     throw exception from clone and collections must be copied and then sent <br>
+     Adv - security, sharable
+
+103. 
