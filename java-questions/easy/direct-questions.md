@@ -417,9 +417,32 @@ A.  It is the process in which multiple classes with same method name and same m
     It is mainly used with in the class and used for enhancing the functionality <br>
     Example: learning different language
 
-101. How to make a class immutable ? Adv/dis
+101. How to make a class immutable ? Adv/dis <br>
 A.   Make class as final, variable as private and instantitate with constructor and expose getter methods <br>
      throw exception from clone and collections must be copied and then sent <br>
      Adv - security, sharable
 
-103. 
+102. Can you explain where can we use abstract class ? Example ? <br>
+A.   It must be used where new features needs to be added keeping other features intact <br>
+     Example: Banking interest on loans
+
+103. Is there any memory allocated for abstract class ? <br>
+A.   No
+
+104. Can i mark class as 'abstract' even if it doesnt contain abstract methods ? <br>
+A.   Yes
+
+105. Lets say i create abstract method in concrete class, what changes do i need to make ? <br>
+A.   Mark the class as abstract
+
+106. Can i create object of abstract class ? <br>
+A.   No, but it can be used along as anonymous object
+
+107. If i cannot create instance of abstract class, can i access instance methods of it ? <br>
+A.   Yes, it is possible via Inheritance
+
+108. Can i create protected variable inside abstract class ? <br>
+A.   Yes, it works well specially it class is accessed via inheritance
+
+109. Why abstract and final doesnt work together ? <br>
+A.   Abstract requires inheritance whereas final opposes inheritance. Both are opposite in nature
