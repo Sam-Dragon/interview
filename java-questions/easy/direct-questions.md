@@ -7,90 +7,93 @@ A. Serveral ways we can create the object
    - Class.forName("Class Name").newInstance() method
    - clone() method
 
-2. Is java case-sensitive language ? <br>
+2. How to compile and execute code in java ? <br>
+A. use javac for code compilaion and conversion then java for running
+
+3. Is java case-sensitive language ? <br>
 A. No
 
-3. What is the JVM execution flow ? <br>
+4. What is the JVM execution flow ? <br>
 A. Statics - initializers, variables, methods <br>
    instance - initializers, variables, methods <br>
    then local variables
 
-4. Is java, pass by value or pass by reference ? can you prove it ? <br>
+5. Is java, pass by value or pass by reference ? can you prove it ? <br>
 A. It is pass by value. Yes, use swapping program
 
-5. Can we run any statement without main() ? <br>
+6. Can we run any statement without main() ? <br>
 A. Yes, static initilzers, static methods
 
-6. what will happen if i call main() inside main() method ? <br>
+7. what will happen if i call main() inside main() method ? <br>
 A. It is recurrsively call itself and run out of memory. heap space
 
-7. What is unicode system ? why two bytes are allocated for each character ? <br>
+8. What is unicode system ? why two bytes are allocated for each character ? <br>
 A. It is system to encoding standard which gives unique number for each character and it requires only byte. <br>
 Two bytes are allocated to support other languages
  
-8. Can any class be specified as datatype ? For instance 'String' class <br>
+9. Can any class be specified as datatype ? For instance 'String' class <br>
 A. Yes, all classes are specified as user defined datatype
 
-9. Default datatype for non-fractional numbers & fractional ones ? <br>
+10. Default datatype for non-fractional numbers & fractional ones ? <br>
 A. non-factional - Integer, fractional - Double
 
-10. How datatypes declaration transited from java-8 to java-11 and above ? <br>
+11. How datatypes declaration transited from java-8 to java-11 and above ? <br>
 A. 'var' keyword is used for representing the datatype reference which will decided at runtime
 
-11. Can you explain where to use '==' vs .equals() method ? <br>
+12. Can you explain where to use '==' vs .equals() method ? <br>
 A. '==' is mainly used for address comparaision [literals]. useful in case of literals [numbers, characters] <br>
    &nbsp;&nbsp;&nbsp;.equals() is mainly used for value comparision [objects]. useful for any class objects [strings]
 
-12. Can you explain with example between operators '|' and '||' ? <br>
+13. Can you explain with example between operators '|' and '||' ? <br>
 A. true & false & true - false [third expression will also evaluated] <br>
    &nbsp;&nbsp;&nbsp; true && false && true - false [third expression is not evaluated due to short circuit]
 
-13. What is ternary operator ? when to use ? any advantage ? <br>
+14. What is ternary operator ? when to use ? any advantage ? <br>
 A. Special operator to evaluate expression on condition to produce result [similiar to if/else] <br>
    **Advantage**: Increase code readability <br>
    Example: (a > b) ? a : b; 
 
-14. What is instanceOf operator ? When to use ? any advantage ? <br>
+15. What is instanceOf operator ? When to use ? any advantage ? <br>
 A. instanceOf is special operator which checks object to specific class type <br>
    It is generally used when classes are under inheritance to prevent 'ClassCastException' <br>
    Example: obj instanceOf MyClass
 
-15. What decides the execution flow of expression ? <br>
+16. What decides the execution flow of expression ? <br>
 A. BODMAS rule
 
-16. what are statements and loops ? <br>
+17. what are statements and loops ? <br>
 A. Statements executes single execution code [top to bottom] but loops to recurrsively iterates the same execution code <br>
    &nbsp;&nbsp;&nbsp; Statements: if-else, switch, break, continue, return
    &nbsp;&nbsp;&nbsp;      Loops: do-while, while, for, for-each
 
-17. Difference between while and do-while loop ? <br>
+18. Difference between while and do-while loop ? <br>
 A. do-while executes once irrespective of condition where as while adheres to condition. <br>
 while is considered as more efficient <br>
    Scenarios: do-while is useful for Menu-Driven Programs, password entry whereas while is Event Handling, Continous monitoring
    
-18. How would you write infinite for-loop, while & do-while loop, where are they useful ? <br>
+19. How would you write infinite for-loop, while & do-while loop, where are they useful ? <br>
 A. for (;;), while(true), do {} while(true) <br>
    Scenarios: In cases where you want to continuesly monitor something use while and do-while
 
-19. What will happen if i run continues loop basically infinite loop ? <br>
+20. What will happen if i run continues loop basically infinite loop ? <br>
 A. Heap will run out of memory and out of memory error will come
 
-20. In which cases for loop with indexes are useful ? <br>
+21. In which cases for loop with indexes are useful ? <br>
 A. Generally, when you want to toggle the data with indexes say alternate numbers, every three number of array etc..
 
-21. Give me usecase where we use switch statement ? <br>
+22. Give me usecase where we use switch statement ? <br>
 A. Switch cases are specifically useful when you want to pre-define values <br>
    &nbsp;&nbsp;&nbsp; Example: bank interest rates, transaction charges, currency values
 
-22. Difference between return and system.exit() ? <br>
+23. Difference between return and system.exit() ? <br>
 A. Generally, return just gracefully terminates the execution but still allows caller method to execute <br>
    &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution either normal [System.exit(0)] or abnormal way [System.exit(1)]
 
-23. In which case finally block executes, if the statements are called before them ? <br>
+24. In which case finally block executes, if the statements are called before them ? <br>
 A. Even if method returns the values, still finally block will be called <br>
    &nbsp;&nbsp;&nbsp; whereas system.exit stops the execution and finally block wont be executed
 
-24. How many ways can we terminate the program ? <br>
+25. How many ways can we terminate the program ? <br>
 A. Currently, there are many ways we can terminate the program <br>
 > Graceful way
   - return
