@@ -449,3 +449,46 @@ A.   Yes, it works well specially it class is accessed via inheritance
 
 109. Why abstract and final doesnt work together ? <br>
 A.   Abstract requires inheritance whereas final opposes inheritance. Both are opposite in nature
+
+
+# WRITE INHERITANCE QUESTIONS
+
+110. Can i prevent a class from creating object ? <br>
+A.   Yes, if class has private constructor
+
+111. In case of interface, why methods are public abstract and variables are public static final ? <br>
+A.   Interface were designed to provide the methods on 'what to do' so methods are abstract in nature <br>
+     whereas variables as constants because there is no object so instance variables are eliminated, <br>
+     so it can be only accessed statically but things are different in java-8 and above
+
+112. What are marker interface ? what is the use ? Example ? <br>
+A.   Interfaces with no abstract methods. <br>
+     They are useful in specifying compiler that this functionality is applicable <br>
+     Example: Clonable, Serializable [But to implement we need to override object methods like clone and serial id]
+
+113. What are functional interface ? what is the use ? Example ? <br> 
+A.   Interface with single abstract method. <br>
+     They are useful in single functionality. It slightly differs in java-8 <br> 
+     Example: Runnable, Callable, Comparator, Comparable etc..
+
+114. Can we create object of interface ? <br>
+A.   No, but it can be done via annonymous inner class
+
+115. What problems is there w.r.t inheritance ? <br>
+A.   Multiple inheritance
+
+116. How is multiple inheritance resolved ? <br>
+A.   Interfaces, as they dont provide implementation
+
+117. How is achieve callbacks in java ? <br>
+A.   Interfaces
+
+118. Difference between classes and interfaces ? <br>
+A.   classes works both with instance and inheritence way where as interfaces works in inheritance way <br>
+     class can extend only one class but multiple interfaces whereas interfaces can extend multiple interfaces <br>
+     classes are used to specify 'how to do' whereas interfaces are used to specify 'what to do' <br>
+     classes can specify all kinds of methods and variables where as interfaces can only specify methods as abstract
+     and variables as constants
+
+119. Can we pass interface reference in methods ? which object does it hold ? <br>
+A.   Yes, whichever is assigned to it before method call
