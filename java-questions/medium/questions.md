@@ -16,4 +16,9 @@ A. For positive, just use power of 2 <br>
 A. Binary Operators
 
 5. How to make arrays thread-safe ? <br>
-A. 
+A. Use AtomicIntegerArray class else change to array list and use CopyOnWriteArrayList and Collections.synchronizedList
+
+6. Can you write a class inside interface ? If yes, how to access it ? <br>
+A. Yes, if can be accessed with interface name
+
+7. 
