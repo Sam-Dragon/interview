@@ -528,6 +528,10 @@ A.   classes works both with instance and inheritence way where as interfaces wo
 131. Can we pass interface reference in methods ? which object does it hold ? <br>
 A.   Yes, whichever is assigned to it before method call
 
+<details>
+
+<summary> Exception </summary>
+
 132. What are exceptions ? How do you handle it ? <br>
 A.   Exceptions are abnormal conditions which alters the flow of execution. <br>
      It can be handled with try-catch-finally
@@ -577,3 +581,5 @@ A.   Yes, but not useful
 145. Can you explain rules for defining the exceptions ?
 A.   Make sure all custom exceptions derive from Exceptions class <br>
      Order of exceptions must be from low to high <br>
+
+</details>
