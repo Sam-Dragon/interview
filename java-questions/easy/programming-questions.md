@@ -56,3 +56,6 @@ A. John
    }  <br>
    } <br><br>
 A. Error: non-static to static access not possible
+
+5. Can i create object of IOException ? <br>
+A. Exception e = new IOException(); -- TRY
