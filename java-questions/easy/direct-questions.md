@@ -397,98 +397,133 @@ A.  To replace multiple overloaded methods we can use variable arguments <br>
     It can be defined with ... and must be the last argument of the method <br>
     Example: sum of 2'S, 3's, 4's numbers 
 
-97. Difference between coercion and conversion ?
+97. What is object graph ? <br>
+A.  It is the representation of how objects are connected to each other
+
+98. When should we use inner class ? what are adv ? <br>
+A.  In case we some implmentation to be secured, we can put it in inner class. <br>
+    Example: interest of loans
+
+99. Anonymous inner class vs inner class ? <br>
+A.  Inner classes with have name whereas anonymous wont.  
+
+100. Difference between coercion and conversion ? <br>
 A.  Automatic conversion between different datatype done by compiler is called coercion <br>
 whereas explicit conversion of datatype done using cast operator by coder is called conversion
 
-98. Explain polymorphism ? Types ? Example ?
+101. Explain polymorphism ? Types ? Example ? <br>
 A.  Polymorphism - many forms, variables and methods acts different on different methods <br>
     Types - static and dynamic <br>
     static - The process in which compiler knows the method to execute at compile time [Method Overloading]. Fees of bank  <br>
     dynamic - The process in which compiler doesnt know the method to execute at compile time,  <br>
     hence it decided at runtime by jvm based on object [Method Overriding]. Example - Interest of bank
 
-99. Explain Method Overloading ? Usage ? Example ? <br>
+102. Explain Method Overloading ? Usage ? Example ? <br>
 A.  It is the process in which multiple methods with same class name but different method signatures <br>
     It may vary by number of args, order of args or datatype of args <br>
     It is mainly used with in the class and used for enhancing the functionality <br>
     Example: skills improvement by employee
 
-100. Explain Method Overriding ? Usage ? Example ? <br>
+103. Explain Method Overriding ? Usage ? Example ? <br>
 A.  It is the process in which multiple classes with same method name and same method signatures <br>
     It must have exact same method signature and is applicable via inheritance <br>
     It is mainly used with in the class and used for enhancing the functionality <br>
     Example: learning different language
 
-101. How to make a class immutable ? Adv/dis <br>
+104. How to make a class immutable ? Adv/dis <br>
 A.   Make class as final, variable as private and instantitate with constructor and expose getter methods <br>
      throw exception from clone and collections must be copied and then sent <br>
      Adv - security, sharable
 
-102. Can you explain where can we use abstract class ? Example ? <br>
+105. Can you explain where can we use abstract class ? Example ? <br>
 A.   It must be used where new features needs to be added keeping other features intact <br>
      Example: Banking interest on loans
 
-103. Is there any memory allocated for abstract class ? <br>
+106. Is there any memory allocated for abstract class ? <br>
 A.   No
 
-104. Can i mark class as 'abstract' even if it doesnt contain abstract methods ? <br>
+107. Can i mark class as 'abstract' even if it doesnt contain abstract methods ? <br>
 A.   Yes
 
-105. Lets say i create abstract method in concrete class, what changes do i need to make ? <br>
+108. Lets say i create abstract method in concrete class, what changes do i need to make ? <br>
 A.   Mark the class as abstract
 
-106. Can i create object of abstract class ? <br>
+109. Can i create object of abstract class ? <br>
 A.   No, but it can be used along as anonymous object
 
-107. If i cannot create instance of abstract class, can i access instance methods of it ? <br>
+110. If i cannot create instance of abstract class, can i access instance methods of it ? <br>
 A.   Yes, it is possible via Inheritance
 
-108. Can i create protected variable inside abstract class ? <br>
+111. Can i create protected variable inside abstract class ? <br>
 A.   Yes, it works well specially it class is accessed via inheritance
 
-109. Why abstract and final doesnt work together ? <br>
+112. Why abstract and final doesnt work together ? <br>
 A.   Abstract requires inheritance whereas final opposes inheritance. Both are opposite in nature
 
+113. What is the parent of all class either via instance or inheritance way [super] ? <br>
+A.   Object class
 
-# WRITE INHERITANCE QUESTIONS
+114. Why java doesnt use much of interitance even when it provides reusability ? <br>
+A.   Code complexity, Readability 
 
-110. Can i prevent a class from creating object ? <br>
+115. Which keywords signifies the class / interface are in inheritance ? <br>
+A.   extends at class level and super in constructor level 
+
+116. Where can we use 'super' of ? what all can it access ? <br>
+A.   super is used specially in case of inheritance, it can be access members and constructors
+
+117. What is constructor chaining ? How does it works ? <br>
+A.   It is the process of chaining all the classes which are under inheritance and it works wth 'super' of call
+
+118. Is there any access specifier designed for inheritance ? <br>
+A.   Yes, protected
+
+119. Types of inheritance ? Which java supports ? <br>
+A.   single and multple. java supports single inheritance
+
+120. what is multiple inheritance issue ? why java doesnt support ?
+A.   It is also called diamond problem of death. It causes confusion on which method to pick and execute <br>
+     It add complexity and effects readability
+
+121. Inside constructor, can we have super and this ? what rules are followed ? <br>
+A.   No, we cannot have both. Rule is to have only one of these and it must be first line of constructor
+
+122. Can i prevent a class from creating object ? <br>
 A.   Yes, if class has private constructor
 
-111. In case of interface, why methods are public abstract and variables are public static final ? <br>
+123. In case of interface, why methods are public abstract and variables are public static final ? <br>
 A.   Interface were designed to provide the methods on 'what to do' so methods are abstract in nature <br>
      whereas variables as constants because there is no object so instance variables are eliminated, <br>
      so it can be only accessed statically but things are different in java-8 and above
 
-112. What are marker interface ? what is the use ? Example ? <br>
+124. What are marker interface ? what is the use ? Example ? <br>
 A.   Interfaces with no abstract methods. <br>
      They are useful in specifying compiler that this functionality is applicable <br>
      Example: Clonable, Serializable [But to implement we need to override object methods like clone and serial id]
 
-113. What are functional interface ? what is the use ? Example ? <br> 
+125. What are functional interface ? what is the use ? Example ? <br> 
 A.   Interface with single abstract method. <br>
      They are useful in single functionality. It slightly differs in java-8 <br> 
      Example: Runnable, Callable, Comparator, Comparable etc..
 
-114. Can we create object of interface ? <br>
+126. Can we create object of interface ? <br>
 A.   No, but it can be done via annonymous inner class
 
-115. What problems is there w.r.t inheritance ? <br>
+127. What problems is there w.r.t inheritance ? <br>
 A.   Multiple inheritance
 
-116. How is multiple inheritance resolved ? <br>
+128. How is multiple inheritance resolved ? <br>
 A.   Interfaces, as they dont provide implementation
 
-117. How is achieve callbacks in java ? <br>
+129. How is achieve callbacks in java ? <br>
 A.   Interfaces
 
-118. Difference between classes and interfaces ? <br>
+130. Difference between classes and interfaces ? <br>
 A.   classes works both with instance and inheritence way where as interfaces works in inheritance way <br>
      class can extend only one class but multiple interfaces whereas interfaces can extend multiple interfaces <br>
      classes are used to specify 'how to do' whereas interfaces are used to specify 'what to do' <br>
      classes can specify all kinds of methods and variables where as interfaces can only specify methods as abstract
      and variables as constants
 
-119. Can we pass interface reference in methods ? which object does it hold ? <br>
+131. Can we pass interface reference in methods ? which object does it hold ? <br>
 A.   Yes, whichever is assigned to it before method call
