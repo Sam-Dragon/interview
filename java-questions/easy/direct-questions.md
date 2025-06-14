@@ -491,6 +491,9 @@ A.   No, we cannot have both. Rule is to have only one of these and it must be f
 122. Can i prevent a class from creating object ? <br>
 A.   Yes, if class has private constructor
 
+<details>
+<summary> INTERFACE </summary>
+
 123. In case of interface, why methods are public abstract and variables are public static final ? <br>
 A.   Interface were designed to provide the methods on 'what to do' so methods are abstract in nature <br>
      whereas variables as constants because there is no object so instance variables are eliminated, <br>
@@ -528,9 +531,9 @@ A.   classes works both with instance and inheritence way where as interfaces wo
 131. Can we pass interface reference in methods ? which object does it hold ? <br>
 A.   Yes, whichever is assigned to it before method call
 
+</details>
 <details>
-
-<summary> Exception </summary>
+<summary> EXCEPTION </summary>
 
 132. What are exceptions ? How do you handle it ? <br>
 A.   Exceptions are abnormal conditions which alters the flow of execution. <br>
@@ -581,5 +584,5 @@ A.   Yes, but not useful
 145. Can you explain rules for defining the exceptions ?
 A.   Make sure all custom exceptions derive from Exceptions class <br>
      Order of exceptions must be from low to high <br>
-
+     
 </details>
