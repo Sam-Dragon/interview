@@ -527,3 +527,53 @@ A.   classes works both with instance and inheritence way where as interfaces wo
 
 131. Can we pass interface reference in methods ? which object does it hold ? <br>
 A.   Yes, whichever is assigned to it before method call
+
+132. What are exceptions ? How do you handle it ? <br>
+A.   Exceptions are abnormal conditions which alters the flow of execution. <br>
+     It can be handled with try-catch-finally
+
+133. Difference between compile time vs runtime exceptions ?
+A.   exceptions managed by compiler are compile time exception <br>
+     whereas exception managed by jvm is called runtime exceptions <br>
+     compile time exceptions are enforces method to handle either by try-catch or by throwing <br>
+     No such rules for runtime exceptions
+
+134. Difference between error and exceptions <br>
+A.   error are irrecoverable conditions and must not be handled. Example: OutOfMemoryError, StackOverflowError <br>
+     whereas exceptions are recoverable and must be handled. Example: IOException, NullPointerException <br>
+
+135. Can we handle errors ? If yes, why dont we handle ?
+A.   Yes, we can but not recommended. <br>
+     They are not handled because they are system related issues not program related
+
+136. Which the parent class of all exceptions ? parent of Throwable ? <br>
+A.   Parent of all exception class is '**Throwable**', parent of throwable is '**Object**' class
+
+137. How do you perform exception handling ? <br>
+A.   It is generally done using try-catch-finally
+
+138. In case we dont handle exception, how does main method display exception occurred ? <br>
+A.   every main method inheritly has exception handling done by JVM. JVM manages exception objects
+
+139. Can we write single catch block and handle multiple exceptions ? <br>
+A.   Yes, using pipe (|) operator
+
+140. Can we write try without catch block ? <br>
+A.   Yes, either with finally or use try-with-resources
+
+141. In case developer doesnt want to handle exception, what can he do ? <br>
+A.   We can throw the exception mainly checked ones. [We can even throw unchecked exceptions]
+
+142. What are the steps to create custom exceptions ? <br>
+A.   Extending to the Exception class <br>
+     specify the constructors with arguments else we can't use them
+
+143. Can we throw an exception either thrown from method or create new one ?
+A.   Yes, we can throw any exception using 'throw' clause
+
+144. Can we rethrow an exception ? if Yes, what is adv / disadv ? <br>
+A.   Yes, but not useful 
+
+145. Can you explain rules for defining the exceptions ?
+A.   Make sure all custom exceptions derive from Exceptions class <br>
+     Order of exceptions must be from low to high <br>
