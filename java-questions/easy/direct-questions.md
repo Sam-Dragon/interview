@@ -104,7 +104,7 @@ A. Currently, there are many ways we can terminate the program <br>
   - Deadlock
   - Sleep infinitely
 
-21. If method return value, is it necessary to consume / read ?
+21. If method return value, is it necessary to consume / read ? <br>
 A.  Not necessary
 
 22. Is String a class (OR) datatype ? <br>
