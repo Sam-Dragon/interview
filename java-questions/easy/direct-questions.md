@@ -1,5 +1,8 @@
 # Basic Interview Questions
 
+<details>
+<summary> GENERAL </summary>
+
 1. How many ways we can create an object ? <br>
 A. Serveral ways we can create the object
    - 'new' operator <br>
@@ -61,6 +64,11 @@ A. instanceOf is special operator which checks object to specific class type <br
 16. What decides the execution flow of expression ? <br>
 A. BODMAS rule
 
+</details>
+<details>
+<summary> CONTROL STATEMENTS </summary>
+
+
 17. what are statements and loops ? <br>
 A. Statements executes single execution code [top to bottom] but loops to recurrsively iterates the same execution code <br>
    &nbsp;&nbsp;&nbsp; Statements: if-else, switch, break, continue, return
@@ -107,6 +115,10 @@ A. Currently, there are many ways we can terminate the program <br>
 21. If method return value, is it necessary to consume / read ? <br>
 A.  Not necessary
 
+</details>
+<details>
+<summary> STRINGS </summary>
+
 22. Is String a class (OR) datatype ? <br>
 A. String is a class and all classes are datatype [user-defined datatype]
 
@@ -149,6 +161,10 @@ A. No, they are mutable and internally updated
 A. String are immutable objects whereas String Builder / String Buffer are mutable in nature <br>
 String and StringBuffer are thread-safe where as StringBuilder is not <br>
 String can be created many ways whereas String Buffer / String Builder are created using string only
+
+</details>
+<details>
+<summary> ARRAY </summary>
 
 35. What is array ? <br>
 A. array is collection of elements
@@ -210,6 +226,10 @@ A. Object based approach similar to Object oriented but it doesnt support inheri
    Object based - javascript, vbscript <br>
    Object oriented - java, c++
 
+</details>
+<details>
+<summary> OOPS CONCEPTS </summary>
+
 53. Explain OOPS concepts ? Give some real world example ?
 A.  Class/Objects <br>
     Encapsulation <br>
@@ -246,6 +266,10 @@ A.  Polymorphism is process which means many forms <br>
     method with different arguments or method with same arguments but different types <br>
     Example - Human Beings <br>
     **Advantages**: Flexibility
+
+</details>
+<details>
+<summary> CLASS AND OBJECTS </summary>
 
 59. What is hashcode ? How is it useful ? algo used for designing it ? <br>
 A. Hashcode is unique hexadecimal representation address of the object <br>
@@ -309,6 +333,10 @@ A.  default constructor - automatically added by jvm <br>
 A.  Constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
     Method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
 
+</details>
+<details>
+<summary> INPUT AND OUTPUT </summary>
+
 75. Which class is used for input/output streams ? <br>
 A.  System.in, System.out, System.err
 
@@ -352,6 +380,10 @@ A.  StringTokenizer - legacy class, less efficient for single delimiter, doesnt 
 
 86. How can you format the string output ? <br>
 A.  It can be done using String.format() (OR) System.out.printf() 
+
+</details>
+<details>
+<summary> METHODS </summary>
 
 87. what are instance methods ? How are they called ? where are they stored ? Example <br>
 A.  They are object methods which are called after object is created <br>
@@ -397,6 +429,10 @@ A.  To replace multiple overloaded methods we can use variable arguments <br>
     It can be defined with ... and must be the last argument of the method <br>
     Example: sum of 2'S, 3's, 4's numbers 
 
+</details>
+<details>
+<summary> INNER CLASS </summary>
+
 97. What is object graph ? <br>
 A.  It is the representation of how objects are connected to each other
 
@@ -406,6 +442,10 @@ A.  In case we some implmentation to be secured, we can put it in inner class. <
 
 99. Anonymous inner class vs inner class ? <br>
 A.  Inner classes with have name whereas anonymous wont.  
+
+</details>
+<details>
+<summary> POLYMORPHISM </summary>
 
 100. Difference between coercion and conversion ? <br>
 A.  Automatic conversion between different datatype done by compiler is called coercion <br>
@@ -425,15 +465,22 @@ A.  It is the process in which multiple methods with same class name but differe
     Example: skills improvement by employee
 
 103. Explain Method Overriding ? Usage ? Example ? <br>
-A.  It is the process in which multiple classes with same method name and same method signatures <br>
+A.  It is the process in which multiple classes with same method name and same method signatures ? <br>
     It must have exact same method signature and is applicable via inheritance <br>
     It is mainly used with in the class and used for enhancing the functionality <br>
     Example: learning different language
 
-104. How to make a class immutable ? Adv/dis <br>
+104. What can we implement with polymorphism either with static (OR) final (OR) private methods ? <br>
+A.   Only method overloading 
+
+105. How to make a class immutable ? Adv/dis <br>
 A.   Make class as final, variable as private and instantitate with constructor and expose getter methods <br>
      throw exception from clone and collections must be copied and then sent <br>
      Adv - security, sharable
+
+</details>
+<details>
+<summary> ABSTRACT CLASS </summary>
 
 105. Can you explain where can we use abstract class ? Example ? <br>
 A.   It must be used where new features needs to be added keeping other features intact <br>
@@ -459,6 +506,10 @@ A.   Yes, it works well specially it class is accessed via inheritance
 
 112. Why abstract and final doesnt work together ? <br>
 A.   Abstract requires inheritance whereas final opposes inheritance. Both are opposite in nature
+
+</details>
+<details>
+<summary> INHERITANCE </summary>
 
 113. What is the parent of all class either via instance or inheritance way [super] ? <br>
 A.   Object class
@@ -488,9 +539,10 @@ A.   It is also called diamond problem of death. It causes confusion on which me
 121. Inside constructor, can we have super and this ? what rules are followed ? <br>
 A.   No, we cannot have both. Rule is to have only one of these and it must be first line of constructor
 
-122. Can i prevent a class from creating object ? <br>
+122. Can i prevent a class from creating object / preventing inheritance ? <br>
 A.   Yes, if class has private constructor
 
+</details>
 <details>
 <summary> INTERFACE </summary>
 
