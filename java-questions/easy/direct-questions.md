@@ -112,8 +112,6 @@ A. Currently, there are many ways we can terminate the program <br>
   - Deadlock
   - Sleep infinitely
 
-21. If method return value, is it necessary to consume / read ? <br>
-A.  Not necessary
 
 </details>
 <details>
@@ -385,49 +383,52 @@ A.  It can be done using String.format() (OR) System.out.printf()
 <details>
 <summary> METHODS </summary>
 
-87. what are instance methods ? How are they called ? where are they stored ? Example <br>
-A.  They are object methods which are called after object is created <br>
-    They are called generally with instance only <br>
-    They are stored in heap area of jvm
-    Example: setters and getters
+1. what are instance methods ? How are they called ? where are they stored ? Example <br>
+A. They are object methods which are called after object is created <br>
+   They are called generally with instance only <br>
+   They are stored in heap area of jvm
+   Example: setters and getters
 
-88. what are static methods ? How are they called ? where are they stored ? Example <br>
-A.  They are class methods which are called even before any object is created <br>
-    They are called generally with Classname or even instance [interally it resovles to classname] <br>
-    They are stored in method area of jvm
-    Example: Class.forName("test"), Class.getInstance() etc. <br>
+2. what are static methods ? How are they called ? where are they stored ? Example <br>
+A. They are class methods which are called even before any object is created <br>
+   They are called generally with Classname or even instance [interally it resovles to classname] <br>
+   They are stored in method area of jvm
+   Example: Class.forName("test"), Class.getInstance() etc. <br>
 
-89. Can we access non-static variable in static method ? <br>
-A.  No
+3. Can we access non-static variable in static method ? <br>
+A. No
 
-90. Can we access static variable in non-static method ? <br>
-A.  Yes
+4. Can we access static variable in non-static method ? <br>
+A. Yes
 
-91. Where do we use local variables ? Advantage ? <br>
-A.  Any variables used inside method are local variables, very useful incase of threading 
+5. Where do we use local variables ? Advantage ? <br>
+A. Any variables used inside method are local variables, very useful incase of threading 
 
-92. What is shadowing ? <br>
-A.  It is the practice of using variables in overlapping scopes with the same name
+6. What is shadowing ? <br>
+A. It is the practice of using variables in overlapping scopes with the same name
 
-93. Explain the relevance of 'this' ? <br>
-A.  It is used for referrning the object members. It can be constructor, variable and methods <br>
-    It's scope applicable within the class [basically object]
+7. Explain the relevance of 'this' ? <br>
+A. It is used for referrning the object members. It can be constructor, variable and methods <br>
+   It's scope applicable within the class [basically object]
 
-94. Recurrsion ? Adv/disadv ? <br>
-A.  A function which calls itself <br>
-    Adv - Fast execution, less code <br>
-    Disadv - If not implemented successfully, it will result in out of memory error
+8. Recurrsion ? Adv/disadv ? <br>
+A. A function which calls itself <br>
+   Adv - Fast execution, less code <br>
+   Disadv - If not implemented successfully, it will result in out of memory error
 
-95. What are factory methods ? pattern ? Adv/disadv ?
-A.  Method used for creating objects by providing class name. <br>
-    It uses factory design pattern <br>
-    It compares the classname and creates object with new instance <br>
-    Adv: one place to create all objects
+9. What are factory methods ? pattern ? Adv/disadv ?
+A. Method used for creating objects by providing class name. <br>
+   It uses factory design pattern <br>
+   It compares the classname and creates object with new instance <br>
+   Adv: one place to create all objects
 
-96. How to define varaible arguments to methods ? rules ? Example <br>
+10. How to define varaible arguments to methods ? rules ? Example <br>
 A.  To replace multiple overloaded methods we can use variable arguments <br>
     It can be defined with ... and must be the last argument of the method <br>
-    Example: sum of 2'S, 3's, 4's numbers 
+    Example: sum of 2'S, 3's, 4's numbers
+
+11. If method return value, is it necessary to consume / read ? <br>
+A.  Not necessary
 
 </details>
 <details>
