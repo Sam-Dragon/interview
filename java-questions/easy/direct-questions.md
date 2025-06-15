@@ -180,44 +180,41 @@ A. Arrays can be created using literal or array objects <br>
 6. Can we interchange square brackets while declaring arrays ? <br>
 A. Yes. int[] arr; (OR) int arr[];
 
-7. What is type casting ? what is cast operator ? <br>
-A. It is process of changing the datatype <br>
-   cast operator is used for performing type casting
 
-8. What is 2D array ? How to create it <br>
+7. What is 2D array ? How to create it <br>
 A. It is two dimensional array which is used storing the data <br>
    It is created same way as 1D array
 
-9. What is Jagged Arrays ? Rules to create ? <br>
+8. What is Jagged Arrays ? Rules to create ? <br>
 A. Arrays with variable size but works in multi-dimesional array <br>
    Rules: They are created with initial length
 
-10. Can we change the contents of array even if is marked as final ? <br>
-A.  Yes, as they are mutable in nature
+9. Can we change the contents of array even if is marked as final ? <br>
+A. Yes, as they are mutable in nature
 
-11. Can i create array in array ? <br>
+10. Can i create array in array ? <br>
 A.  Yes
 
-12. Can we interchange static & void in main method ? <br>
+11. Can we interchange static & void in main method ? <br>
 A.  Yes
 
-13. Can we create main() method of my own ? <br>
+12. Can we create main() method of my own ? <br>
 A.  Yes
 
-14. Can we call main() method of class from another ? <br>
+13. Can we call main() method of class from another ? <br>
 A.  Yes
 
-15. How are command-line args are read ? <br>
+14. How are command-line args are read ? <br>
 A.  Strings
 
-16. How are escape big string in command-line args ? <br>
+15. How are escape big string in command-line args ? <br>
 A.  Put it inside the quotes
 
-17. Difference between Procedure based vs Object Oriented based approach ? <br>
+16. Difference between Procedure based vs Object Oriented based approach ? <br>
 A.  Procedure based approach hard to understand, increases complexity <br>
     Object Oriented based approach opposite of it also it provides reusability
 
-18. Difference between Object based vs Object Oriented based approach ? <br>
+17. Difference between Object based vs Object Oriented based approach ? <br>
 A.  Object based approach similar to Object oriented but it doesnt support inheritance <br>
     Object based - javascript, vbscript <br>
     Object oriented - java, c++
@@ -329,6 +326,19 @@ A.  default constructor - automatically added by jvm <br>
 A.  Constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
     Method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
 
+17. Who is the parent of all class ? <br>
+A.  Object class
+
+18. Important Methods of object class ? <br>
+A.  equals() - used for matching the content of objects <br>
+    hashcode() - generated unique hexadecimal number as reference<br>
+    wait() - used for locking the object till it is unlocked by nofity() or notifyAll() <br>
+    notify() - used for unlocking the object by sending signal to object <br>
+    notifyAll() - used for unlocking the objects by sending signal to objects  <br>
+    clone() - used for cloning the objects <br>
+    finalize - used for garbage collection <br>
+    toString() - convert object to string <br>
+     
 </details>
 <details>
 <summary> INPUT AND OUTPUT </summary>
@@ -642,3 +652,40 @@ A.  Make sure all custom exceptions derive from Exceptions class <br>
     Order of exceptions must be from low to high <br>
     
 </details>
+<detail>
+<summary>TYPE CASTING</summary>
+
+1. What is type casting ? what is cast operator ? <br>
+A. It is process of changing the datatype <br>
+   cast operator is used for performing type casting
+
+2. Where can i use type casting ? <br>
+A. It is generally used from coverting the dataypes between primitive and reference types
+
+3. What are different types of datatypes ? <br>
+A. Primitive and Reference datatypes
+
+4. What is widening and Narrowing ? Example <br>
+A. Widening is the process of promoting the object to higher types & is done by compiler. Example - int i = 100;
+   Narrowing is the process of demoting the object to lower types & is done by user explicitly. Example - int i = (int) 100.12;
+
+5. What is implicit vs explicit casting ? <br>
+A. Automatic casting done by compiler is called implicit casting <br>
+   Explicit casting done by the user is called explicit casting <br>
+   Explicit casting is error prone where as implicit is not
+
+6. How do you perform primitive casting ? <br>
+A. Casting which is between the primitives and its classes
+
+7. How do you perform reference casting ? <br>
+A. Casting which is between the classes which are under inheritance
+
+8. What is generalization vs specialization ? <br>
+A. Generalization is the process of promoting the classes to higher types <br>
+   specialization is the process of promoting the classes to lower types providiing specific functionality
+
+9. Where does narrowing fail ? <br>
+A. Narrowing fails in case both reference and object are of parent type and then you demote to subtype
+
+</detail>
+
