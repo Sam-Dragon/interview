@@ -652,7 +652,7 @@ A.  Make sure all custom exceptions derive from Exceptions class <br>
     Order of exceptions must be from low to high <br>
     
 </details>
-<detail>
+<details>
 <summary>TYPE CASTING</summary>
 
 1. What is type casting ? what is cast operator ? <br>
@@ -687,5 +687,4 @@ A. Generalization is the process of promoting the classes to higher types <br>
 9. Where does narrowing fail ? <br>
 A. Narrowing fails in case both reference and object are of parent type and then you demote to subtype
 
-</detail>
-
+</details>
