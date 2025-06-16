@@ -262,7 +262,7 @@ A. Polymorphism is process which means many forms <br>
 
 </details>
 <details>
-<summary> CLASS AND OBJECTS </summary>
+<summary> CLASS </summary>
 
 1. What is hashcode ? How is it useful ? algo used for designing it ? <br>
 A. Hashcode is unique hexadecimal representation address of the object <br>
@@ -325,21 +325,53 @@ A.  default constructor - automatically added by jvm <br>
 16. Difference between constructor and method ? <br>
 A.  Constructor - automatically added by jvm / explictly added, used during object construction, same name as class, no return type, no concept of static / non-static<br>
     Method - must be explicitly defined, used after object is constructed, name can be same name or different from class, it can return values, can be static/non-static in nature <br>
-
-17. Who is the parent of all class ? <br>
-A.  Object class
-
-18. Important Methods of object class ? <br>
-A.  equals() - used for matching the content of objects <br>
-    hashcode() - generated unique hexadecimal number as reference<br>
-    wait() - used for locking the object till it is unlocked by nofity() or notifyAll() <br>
-    notify() - used for unlocking the object by sending signal to object <br>
-    notifyAll() - used for unlocking the objects by sending signal to objects  <br>
-    clone() - used for cloning the objects <br>
-    finalize - used for garbage collection <br>
-    toString() - convert object to string <br>
-     
+  
 </details>
+
+<details>
+<summary> OBJECTS </summary>
+
+1. Who is the parent of all class ? <br>
+A. Object class
+
+2. Important Methods of object class ? <br>
+A. equals() - used for matching the content of objects <br>
+   hashcode() - generated unique hexadecimal number as reference<br>
+   wait() - used for locking the object till it is unlocked by nofity() or notifyAll() <br>
+   notify() - used for unlocking the object by sending signal to object <br>
+   notifyAll() - used for unlocking the objects by sending signal to objects  <br>
+   clone() - used for cloning the objects <br>
+   finalize - used for garbage collection <br>
+   toString() - convert object to string <br>
+
+3. How many ways can we create an object ? <br>
+A. It can be done in following ways
+   - Using 'new' keyword
+   - Factory classes
+   - Cloning
+   - Reflection
+   - Class.forName()
+
+4. What is Cloning ? How is it useful ? Types ? <br>
+A. It the process of creating a new object by copying contents from another object <br>
+   It gives resuability of object & reduces developer effort <br>
+   Types: Shallow & Deep Copy
+
+6. Difference between shallow and deep copy cloning ? <br>
+A. shallow copy is the process of cloning the object where modifications are accepted between cloned and actual object. <br>
+   whereas it is opposite for deep copy
+   shallow copy uses default clone() method whereas for deep copy we need custom implementation
+
+7. Tell me the contract between hashcode() and equals() method ? <br>
+A. If two objects are equal through equals() method, then there hashcode must be same <br>
+   If two objects are not equal through equals() method, then there hashcode can be same or different <br>
+
+8. When does hash collision occur ? Resolution ? <br>
+A. Generally, when hashcode() method is not properly overridden (OR) same hash values generated for all objects <br>
+   Make sure hashcode is properly overridden to produce unique keys
+
+</details>
+
 <details>
 <summary> INPUT AND OUTPUT </summary>
 
