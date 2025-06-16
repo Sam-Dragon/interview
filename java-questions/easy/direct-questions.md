@@ -53,6 +53,26 @@ A. instanceOf is special operator which checks object to specific class type <br
 14. What decides the execution flow of expression ? <br>
 A. BODMAS rule
 
+15. Can we invoke garbage collector ? <br>
+A.  Yes, but when it actually initiates process is not known <br>
+    It can be done using System.gc() (OR) Runtime.getRuntime().gc()
+
+16. What are packages and libraries ? <br>
+A.  Combining group of similar functionality is called package <br>
+    Combining group of similar packages is called library <br>
+
+17. What is the use of import statement, if we can directly use at variable level ? <br>
+A.  Its the central area of class where we can define once and use anywhere inside class
+
+18. What is api document ? <br>
+A.  It is a reference manual that has all of the information you need to work with the API
+
+19. What is Classpath ? How do you define it ? How is it useful ? <br>
+A.  The classpath is an environment variable that specifies the locations where the Java compiler and Java Virtual Machine (JVM) should search for class files and other resources
+
+20. What is JAR file ? How is it different from zip file ? <br>
+A.  Compressed version of the code which is readily executable
+
 </details>
 <details>
 <summary> CONTROL STATEMENTS </summary>
@@ -621,6 +641,9 @@ A. Yes
 
 10. Can we pass interface reference in methods ? which object does it hold ? <br>
 A. Yes, whichever is assigned to it before method call
+
+11. How are interfaces stored after compilation ? <br>
+A.  They are stored as .class file only
 
 </details>
 <details>
