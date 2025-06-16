@@ -59,3 +59,32 @@ A. Error: non-static to static access not possible
 
 5. Can i create object of IOException ? <br>
 A. Exception e = new IOException(); -- TRY
+
+6. Output of the program ? <br>
+   class Parent { <br>
+       String name; <br>
+       public Parent(String name) { <br>
+         this.name = name; <br>
+      } <br>
+      void display() { <br>
+         System.out.print(name)
+      } <br>
+   } <br>
+
+   class Child extends Parent { <br>
+       String name; <br>
+       public Child(String name) { <br>
+         this.name = name; <br>
+      } <br>
+      void display() { <br>
+         System.out.print(name)
+      } <br>
+   } <br>
+
+   class Program { <br>
+   public static void main(String[] args) { <br>
+   Parent e = (Child) new Parent();  <br>
+   e.display(); <br>
+   }  <br>
+   } <br><br>
+A. Class Cast Exception
