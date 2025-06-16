@@ -3,65 +3,54 @@
 <details>
 <summary> GENERAL </summary>
 
-1. How many ways we can create an object ? <br>
-A. Serveral ways we can create the object
-   - 'new' operator <br>
-   - Factory methods <br>
-   - Class.forName("Class Name").newInstance() method
-   - clone() method
-
-2. How to compile and execute code in java ? <br>
-A. use javac for code compilaion and conversion then java for running
-
-3. Is java case-sensitive language ? <br>
+1. Is java case-sensitive language ? <br>
 A. No
 
-4. What is the JVM execution flow ? <br>
+2. Is java, pass by value or pass by reference ? can you prove it ? <br>
+A. It is pass by value. Yes, use swapping program
+
+3. What is the JVM execution flow ? <br>
 A. Statics - initializers, variables, methods <br>
    instance - initializers, variables, methods <br>
    then local variables
+   
+4. How to compile and execute code in java ? <br>
+A. use javac for code compilaion and conversion then java for running
 
-5. Is java, pass by value or pass by reference ? can you prove it ? <br>
-A. It is pass by value. Yes, use swapping program
-
-6. Can we run any statement without main() ? <br>
+5. Can we run any statement without main() ? <br>
 A. Yes, static initilzers, static methods
 
-7. what will happen if i call main() inside main() method ? <br>
+6. what will happen if i call main() inside main() method ? <br>
 A. It is recurrsively call itself and run out of memory. heap space
 
-8. What is unicode system ? why two bytes are allocated for each character ? <br>
+7. What is unicode system ? why two bytes are allocated for each character ? <br>
 A. It is system to encoding standard which gives unique number for each character and it requires only byte. <br>
 Two bytes are allocated to support other languages
  
-9. Can any class be specified as datatype ? For instance 'String' class <br>
+8. Can any class be specified as datatype ? For instance 'String' class <br>
 A. Yes, all classes are specified as user defined datatype
 
-10. Default datatype for non-fractional numbers & fractional ones ? <br>
+9. Default datatype for non-fractional numbers & fractional ones ? <br>
 A. non-factional - Integer, fractional - Double
 
-11. How datatypes declaration transited from java-8 to java-11 and above ? <br>
+10. How datatypes declaration transited from java-8 to java-11 and above ? <br>
 A. 'var' keyword is used for representing the datatype reference which will decided at runtime
 
-12. Can you explain where to use '==' vs .equals() method ? <br>
-A. '==' is mainly used for address comparaision [literals]. useful in case of literals [numbers, characters] <br>
-   &nbsp;&nbsp;&nbsp;.equals() is mainly used for value comparision [objects]. useful for any class objects [strings]
-
-13. Can you explain with example between operators '|' and '||' ? <br>
+11. Can you explain with example between operators '|' and '||' ? <br>
 A. true & false & true - false [third expression will also evaluated] <br>
    &nbsp;&nbsp;&nbsp; true && false && true - false [third expression is not evaluated due to short circuit]
 
-14. What is ternary operator ? when to use ? any advantage ? <br>
+12. What is ternary operator ? when to use ? any advantage ? <br>
 A. Special operator to evaluate expression on condition to produce result [similiar to if/else] <br>
    **Advantage**: Increase code readability <br>
    Example: (a > b) ? a : b; 
 
-15. What is instanceOf operator ? When to use ? any advantage ? <br>
+13. What is instanceOf operator ? When to use ? any advantage ? <br>
 A. instanceOf is special operator which checks object to specific class type <br>
    It is generally used when classes are under inheritance to prevent 'ClassCastException' <br>
    Example: obj instanceOf MyClass
 
-16. What decides the execution flow of expression ? <br>
+14. What decides the execution flow of expression ? <br>
 A. BODMAS rule
 
 </details>
@@ -369,6 +358,10 @@ A. If two objects are equal through equals() method, then there hashcode must be
 8. When does hash collision occur ? Resolution ? <br>
 A. Generally, when hashcode() method is not properly overridden (OR) same hash values generated for all objects <br>
    Make sure hashcode is properly overridden to produce unique keys
+
+9. Can you explain where to use '==' vs .equals() method ? <br>
+A. '==' is mainly used for address comparaision [literals]. useful in case of literals [numbers, characters] <br>
+   &nbsp;&nbsp;&nbsp;.equals() is mainly used for value comparision [objects]. useful for any class objects [strings]
 
 </details>
 
