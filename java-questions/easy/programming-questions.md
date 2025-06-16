@@ -88,3 +88,13 @@ A. Exception e = new IOException(); -- TRY
    }  <br>
    } <br><br>
 A. Class Cast Exception
+
+7. Output of the program ? <br>
+   class Program { <br>
+   public static void main(String[] args) { <br>
+   Integer a = new Integer(10); <br>
+   Integer b = new Integer(10); <br>
+   System.out.print(a == b) <br>
+   }  <br>
+   } <br><br>
+A. False
