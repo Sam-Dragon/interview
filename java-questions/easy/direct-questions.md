@@ -736,3 +736,31 @@ A. Generalization is the process of promoting the classes to higher types <br>
 A. Narrowing fails in case both reference and object are of parent type and then you demote to subtype
 
 </details>
+
+<details>
+<summary> GENERICS </summary>
+
+1. What do you understand by term 'generics' ? where all can we apply ? <br>
+A. generics meaning support all types. It is the process of making the class or variable or method, type-safe in nature <br>
+   It can be applied on interface, class, method or variable
+
+2. What is generic class / generic method / generic interface.? Explain with example.? <br>
+A. Class / methods / interface with support all datatypes except primitives. Make sure they are type-safe <br>
+   HumanBeing is generic class and each human becomes specific version
+   
+3. What is generic type.? <br>
+A. It represents a class or interface that is type-safe. It can act upon any datatype
+
+4. What is Erasure.? Any example <br>
+A. Creating non-generic version of generic type by java compiler
+
+5. Can we create object of generic class.? <br>
+A. No, Generic object creation is not allowed
+
+6. How can generics be applied in java.?
+A. It is possible because generic types are defined as subtype of object class
+
+7. Any limitations of generic been applied in objects ?
+A. Yes, primitives are not supported  
+
+</details>
