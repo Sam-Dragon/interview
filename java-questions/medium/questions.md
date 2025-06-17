@@ -21,4 +21,5 @@ A. Use AtomicIntegerArray class else change to array list and use CopyOnWriteArr
 6. Can you write a class inside interface ? If yes, how to access it ? <br>
 A. Yes, if can be accessed with interface name
 
-7. 
+7. Can you explain generics with an example ? <br>
+A. Write a program related to this and paste here
