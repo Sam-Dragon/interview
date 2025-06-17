@@ -757,10 +757,10 @@ A. Creating non-generic version of generic type by java compiler
 5. Can we create object of generic class.? <br>
 A. No, Generic object creation is not allowed
 
-6. How can generics be applied in java.?
+6. How can generics be applied in java objects.? <br>
 A. It is possible because generic types are defined as subtype of object class
 
-7. Any limitations of generic been applied in objects ?
+7. Any limitations of generic been applied in objects ? <br>
 A. Yes, primitives are not supported  
 
 </details>
