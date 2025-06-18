@@ -91,10 +91,30 @@ A. Class Cast Exception
 
 7. Output of the program ? <br>
    class Program { <br>
-   public static void main(String[] args) { <br>
-   Integer a = new Integer(10); <br>
-   Integer b = new Integer(10); <br>
-   System.out.print(a == b) <br>
-   }  <br>
-   } <br><br>
-A. False
+    public static void main(String[] args) { <br>
+      int prim_one = 10; <br>
+      int prim_two = 10; <br>
+      System.out.println(prim_one == prim_two); <br>
+		
+      Integer ref_one = 10; <br>
+      Integer ref_two = 10; <br>
+      System.out.println(ref_one == ref_two); <br>
+        
+      Integer new_ref_one = new Integer(10); <br>
+      Integer new_ref_two = new Integer(10); <br>
+      System.out.println(new_ref_one == new_ref_two); <br>
+        
+		// ADHOC Cases
+		System.out.println(prim_one == ref_one); <br>
+		System.out.println(prim_one == new_ref_one); <br>
+		
+		System.out.println(ref_one == new_ref_one); <br>
+    } <br>
+} 
+<br><br>
+A. true <br>
+true <br>
+false <br>
+true <br>
+true <br>
+false <br>
