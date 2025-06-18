@@ -119,3 +119,20 @@ false <br>
 true <br>
 true <br>
 false <br>
+
+
+8. Output of the program ? <br>
+class Main { <br>
+    public static void main(String[] args) { <br>
+        int prim_one = 128; <br>
+        int prim_two = 128; <br>
+        System.out.println(prim_one == prim_two); <br>
+
+        Integer ref_one = 128; <br>
+        Integer ref_two = 128; <br>
+        System.out.println(ref_one == ref_two); <br>
+    } <br>
+}
+<br><br>
+A. true <br>
+false <br> --> Why ? [Integer Caching range is -128 to 127]
