@@ -104,11 +104,11 @@ A. Class Cast Exception
       Integer new_ref_two = new Integer(10); <br>
       System.out.println(new_ref_one == new_ref_two); <br>
         
-		// ADHOC Cases
-		System.out.println(prim_one == ref_one); <br>
-		System.out.println(prim_one == new_ref_one); <br>
-		
-		System.out.println(ref_one == new_ref_one); <br>
+      // ADHOC Cases
+      System.out.println(prim_one == ref_one); <br>
+      System.out.println(prim_one == new_ref_one); <br>
+      
+      System.out.println(ref_one == new_ref_one); <br>
     } <br>
 } 
 <br><br>
