@@ -764,3 +764,73 @@ A. It is possible because generic types are defined as subtype of object class
 A. Yes, primitives are not supported  
 
 </details>
+
+<details>
+<summary> THREADS </summary>
+
+1. Tell me about theads ? where to use ? adv/dis ? <br>
+A. It is seperate path of executing the group of statements <br>
+   It is useful in UI responsiveness, web servers, database interaction, data processing <br>
+   Advantage:  for faster execution, improving performance, effective utilization of resources, producer-consumer Problem
+   Disadavantge: More memory, deadlocks, sync issues
+
+2. Can you explain the Thread content when called using Thread.currentThread() ? <br>
+A. It contains three main components. Thread contains [Thread Name, Thread Priority, Thread Group] <br>
+   - Thread Name: Name of the thread, if not provided, system will assign it
+   - Thread priority: Priority of thread for jvm to execute
+   - Thread Group: Group in which threads are present, it can contain many threads
+
+3. Which thread is run by default by java program or main function ? Explain properly ? <br>
+A. Every program has a default thread called main thread which is managed by JVM <br>
+   Main thread will have its own stack and local variables <br>
+   It be specified like this [main, 5, main] --> Thread and group name will be main and priority will be 5
+
+4. Difference between single tasking and multi tasking ?
+A. single tasking is a process where it executes one task at a time and goes in sequencial manner <br>
+   whereas multi tasking is a process where it executes multiple task at a time and goes in parallel manner <br>
+   single tasking is time consuming and does not utilize system resources properly <br>
+   whereas multi tasking is time efficient and utilize the system resources properly <br>
+   
+5. What is CPU intensive vs IO intensive Task ? what to use when ?
+A. CPU Intensive Task: A task that requires a lot of computation and uses the CPU heavily. <br>
+   Use Cases: Image/video processing, Scientific simulations, Cryptographic calculations, Machine learning model training,      Data compression/encryption
+
+   IO Intensive Task: A task that spends more time waiting for input/output operations than doing computation
+   Use Cases: Reading/writing files to disk, Accessing databases, Network communication (APIs, downloading files), Logging      or interacting with hardware
+
+6. Difference between process and threads ? <br>
+A. Process is an independent program in execution whereas Thread is a lightweight unit of a process <br>
+   Process has its own memory space (heap, stack) whereas Thread shares memory with other threads in the same process <br>
+   Process is isolated from other processes	whereas threads are Not isolated – threads can affect each other
+   Process communication is Inter-process Communication (IPC), slower whereas threads uses shared memory – fast but risky (race conditions)
+  Process Creation Overhead Higher (needs separate memory, resources) whereas threads overhead is Lower (shares context with parent process)
+  Process crash affects only that process	whereas Thread crash can affect the whole process (all threads)
+  Process run separate applications/tasks whereas Thread	run parts of the same task concurrently
+
+7. How to create threads ? <br>
+- It can be created in following ways
+  - extends Thread class [NOT RECOMMENDED]
+  - implements Runnable interface [RECOMMENDED]
+  - implements Callable interface [RECOMMENDED]
+  - Executor service [RECOMMENDED]
+
+8. How to run a threads ? Can i run the thread using thread.run() ? <br>
+A. It can be run using start() method of thread. <br>
+   start() - It creates thread which has its own stack and has its own local variables.
+   run() - must not be used as it execution runs in same thread
+
+9. Can i start a thread again ? <br>
+A. No, It will throw InterruptedException
+
+10. Can i stop a thread ? <br>
+A.  Yes, but not recommended [In case you want to stop, stop using flags not using Thread.stop()]
+
+11. What exceptions does thread throw ? Do we need to handle ? <br>
+A. Interrupted Exception is thrown by thread methods and yes we need to handle for normal termination
+
+12. Where all memory will be allocated once thread is created ? <br>
+A. Heap, Method Area, Stack
+
+13.
+
+</details>
