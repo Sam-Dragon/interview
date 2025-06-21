@@ -886,6 +886,18 @@ A. Interrupted Exception is thrown by thread methods and yes we need to handle f
 12. Where all memory will be allocated once thread is created ? <br>
 A. Heap, Method Area, Stack
 
-13.
+13. Are thread synchronous or Asynchronous in nature ? <br> 
+A.  Asynchronous
+
+14. Difference between sleep() and wait() method ? <br>
+A.  sleep() is method of Thread class whereas wait() is the method of object class <br>
+    sleep() method doesnt required object it just blocks thread whereas wait() requires object hence it needs sync block or method.
+    sleep() method doesnt release the lock which is aquired whereas wait() releases the lock if aquired <br>
+    sleep() is static method whereas wait() is non-static method <br>
+    sleep() pauses for a specific duration whereas wait() waits for notification <br>
+    sleep() doesnt required wakeup methods its time based whereas wait() requires wakeup using notify(), notifyAll() <br>
+    sleep() is useful in polling or retry logic whereas wait() is useful mainly for Producer-Consumer problem
+
+15.
 
 </details>
