@@ -840,7 +840,8 @@ A. Heap, Method Area, Stack
 
 1. What are wrapper class ? Explaing with usecase ? <br>
 A. The classes created for coverting primitives to objects <br>
-   They are very useful as java deals with objects and it is required while transporting data over network
+   They are part of java.lang package <br>
+   They are very useful as java deals with objects and it is required while transporting data over network 
 
 2. Are wrapper classes final by nature ? <br>
 A. Yes
