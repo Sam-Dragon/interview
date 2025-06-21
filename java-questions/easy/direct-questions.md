@@ -859,6 +859,32 @@ A. In order to represent numbers including fractions, number class was created <
    Methods <br>
    byteValue(), intValue(), shortValue(), longValue(), floatValue(), doubleValue()
 
+6. Which is better to use for API models ? primitives or wrapper class ? <br>
+A. For Api Models, its always good to use wrapper classes as primitives cannot be assigned to missing value
 
+7. What is Character class ? Tell me about the methods ? <br>
+A. The counter part for primitive type character <br>
+   Methods <br>
+   charValue(), compareTo(Character obj), toString(), valueOf(char ch) <br>
+   isDigit(char ch), isLetter(char ch), isDigitOrLetter(char ch), isSpaceBar(char ch), isWhiteSpace(char ch),
+   isUpperCase(char ch), isLowerCase(char ch) <br>
+   toUpperCase(char ch), toLowerCase(char ch)
+
+8. How to convert wrapper class object back to primitive type ? <br>
+A. If String, convert using parseXXX method and if number, use XXXValue <br>
+   XXX -> can be any primitive type
+
+9. Which wrapper class has only one constructor ? <br>
+A. Character Class
+
+10. What are the problems with character class ? <br>
+A.  It can be assigned to both character or its associated number. while converting this can create issues
+
+11. What is the relevance of Math class ? <br>
+A.  All the mathematical operations are present here. use this as utility
+
+12. What happens when we use Integer i = 10 ? Explain the process ? <br>
+A.  When any int value is assigned to wrapper class. Internally it is converted to object using internal cache <br>
+    Internal cache works well between byte range. If it goes beyond it, results wont be correct
 
 </details>
