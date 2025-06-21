@@ -834,3 +834,31 @@ A. Heap, Method Area, Stack
 13.
 
 </details>
+
+<details>
+<summary> WRAPPER CLASSES </summary>
+
+1. What are wrapper class ? Explaing with usecase ? <br>
+A. The classes created for coverting primitives to objects <br>
+   They are very useful as java deals with objects and it is required while transporting data over network
+
+2. Are wrapper classes final by nature ? <br>
+A. Yes
+
+3. Explain about primitive types and its counter wrapper classes ? <br>
+A. byte -> Byte, short -> Short, int -> Integer, long -> Long <br>
+   float -> Float, double -> Double <br>
+   char -> Chracter <br>
+   boolean -> Boolean <br>
+
+4. Which is the parent of all the number classes ? <br>
+A. Number class [abstract class]
+
+5. What is Number class ? Tell about its methods ? <br>
+A. In order to represent numbers including fractions, number class was created <br>
+   Methods <br>
+   byteValue(), intValue(), shortValue(), longValue(), floatValue(), doubleValue()
+
+
+
+</details>
