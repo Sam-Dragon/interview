@@ -8,3 +8,6 @@ A. Generally both
 
 3. Should we use direct package imports or generic import (*) ? <br>
 A. We must always use direct imports to prevent compiler load for searching for relevant package
+
+4. Which is better extending to thread class or implmenting the interface ? <br>
+A. Its always bettwe to implement an interface
