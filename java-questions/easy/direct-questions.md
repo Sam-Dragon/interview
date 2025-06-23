@@ -898,6 +898,19 @@ A.  sleep() is method of Thread class whereas wait() is the method of object cla
     sleep() doesnt required wakeup methods its time based whereas wait() requires wakeup using notify(), notifyAll() <br>
     sleep() is useful in polling or retry logic whereas wait() is useful mainly for Producer-Consumer problem
 
-15.
+15. What is race condition ? How does it occur with scenario ?
+A.  It is the problem which occurs when multiple threads updates the same shared resource <br>
+    Scenario: In bank account, if we perform operations such as deposit or withdrawal at a time, this problem can occur
+
+16. Explain Synchronization process.? Explain with example.? Adv/Disadv
+A.  Synchronization in Java is a mechanism used to control the access of multiple threads to shared resources. <br>
+    Adv: It sequencializes the thread aquiring shared resource preventing race condition
+    DisAdv: Slowers the performance, consumes more memory <br>
+    Example: Any distributions like ticket counter, bus counter
+
+18. How many ways can we perform synchronizaton process ? <br>
+A.  It can be using sync block (OR) sync method
+
+19. 
 
 </details>
