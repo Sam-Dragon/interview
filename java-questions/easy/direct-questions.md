@@ -911,6 +911,28 @@ A.  Synchronization in Java is a mechanism used to control the access of multipl
 18. How many ways can we perform synchronizaton process ? <br>
 A.  It can be using sync block (OR) sync method
 
-19. 
+19. What is deadlock ? How does it occur ? Preventition steps ? Disadvantages ? <br>
+A.  Deadlock is a process in which threads lock each other waiting forever. <br>
+    It can occur if the two threads waits for each other to release the resource <br>
+    Steps: <br>
+        - Its generally happens through bad design, it can be corrected at code level <br>
+        - Avoid nested locks, unncessary locks & also from thread.join() method <br>
+    Disadvantages: <br>
+       - It can run the memory out
+       - system will hang and slowness can be observerd
+
+20. In multi-threaded environment, how will you manipulate strings ?
+A.  Use StringBuffer
+
+21. When to use wait(), notify() and notifyAll()
+A.  Mainly used for Thread Communication <br>
+    Example: producer-consumer problem etc..
+
+22. What is deamon threads ? use-case ? how to check if thread is deamon ? <br>
+A.  Threads which are not created by user and runs forever. [system threads] <br>
+    They are useful for running background process. lets say - updating service package, database service <br>
+    isDeamon() of thread method helps in indicating whether it is normal or deamon thread
+   
+23.   
 
 </details>
