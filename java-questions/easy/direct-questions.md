@@ -990,12 +990,12 @@ A.  New - When the thread is created but not running state [start() method] <br>
 30. Types of locks in threads ? Example <br>
 A.  **Intrinsic Locks** - Implicit locks which works with single thread under synchronization <br>
     - Object level lock : lock which works on object instance <br>
-    - Class level lock : lock which works on class instance <br><br>
+    - Class level lock : lock which works on class instance <br>
 
     **Explicit Locks** - Explicit locks which doesnt need synchronization but is alternative to it
     - ReentrantLock : It provides features like fairness policies, interruptible lock acquisition, and the ability to try                         acquiring a lock with a timeout. It is "reentrant" meaning the thread holding the lock can re-acquire                       it without causing a deadlock.
     - ReadWriteLock : It interface provides separate locks for reading and writing. Multiple threads can acquire the read                         lock concurrently but only one thread can aquire write lock
-    - StampedLock   : Introduced in Java 8, StampedLock offers three modes: writing, reading, and optimistic reading. It                          provides a more fine-grained control over locking and can offer better performance in read-heavy                            scenarios compared to ReadWriteLock by allowing optimistic reads that don't block writers<br><br>
+    - StampedLock   : Introduced in Java 8, StampedLock offers three modes: writing, reading, and optimistic reading. It                          provides a more fine-grained control over locking and can offer better performance in read-heavy                            scenarios compared to ReadWriteLock by allowing optimistic reads that don't block writers<br>
 
     **Synchronization Aids** - While not strictly "locks" in the same sense as the above, these mechanisms also help manage                                concurrency
     - Semaphore: A signaling mechanism that controls access to a limited number of resources. It maintains a count of                        available permits, and threads acquire a permit to access the resource and release it when done.
