@@ -993,8 +993,13 @@ A.  **Intrinsic Locks** - Implicit locks which works with single thread under sy
     - Class level lock : lock which works on class instance <br><br>
 
     **Explicit Locks** - Explicit locks which doesnt need synchronization but is alternative to it
-    - ReentrantLock : It provides features like fairness policies, interruptible lock acquisition, and the ability to try                         acquiring a lock with a timeout. It is "reentrant" meaning the thread holding the lock can re-acquire                      it without causing a deadlock.
-    - ReadWriteLock :
-    - StampedLock
+    - ReentrantLock : It provides features like fairness policies, interruptible lock acquisition, and the ability to try                         acquiring a lock with a timeout. It is "reentrant" meaning the thread holding the lock can re-acquire                       it without causing a deadlock.
+    - ReadWriteLock : It interface provides separate locks for reading and writing. Multiple threads can acquire the read                         lock concurrently but only one thread can aquire write lock
+    - StampedLock   : Introduced in Java 8, StampedLock offers three modes: writing, reading, and optimistic reading. It                          provides a more fine-grained control over locking and can offer better performance in read-heavy                            scenarios compared to ReadWriteLock by allowing optimistic reads that don't block writers<br><br>
+
+    **Synchronization Aids** - While not strictly "locks" in the same sense as the above, these mechanisms also help manage                                concurrency
+    - Semaphore: A signaling mechanism that controls access to a limited number of resources. It maintains a count of                        available permits, and threads acquire a permit to access the resource and release it when done.
+    - CountDownLatch: A synchronization aid that allows one or more threads to wait until a set of operations being                               performed in other threads completes. It works like a gate that remains closed until a counter                              reaches zero.
+    - Cyclic Barrier: A synchronization aid that allows one or more threads to wait until a set of operations being                               performed in other threads completes. similar to countdown latch but threads are reusable.
 
 </details>
