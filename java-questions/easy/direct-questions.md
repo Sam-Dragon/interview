@@ -988,6 +988,13 @@ A.  New - When the thread is created but not running state [start() method] <br>
     Terminate - When the thread is killed [stop() method (OR) run method finishes] <br>
 
 30. Types of locks in threads ? Example <br>
-A. 
+A.  **Intrinsic Locks** - Implicit locks which works with single thread under synchronization <br>
+    - Object level lock : lock which works on object instance <br>
+    - Class level lock : lock which works on class instance <br><br>
+
+    **Explicit Locks** - Explicit locks which doesnt need synchronization but is alternative to it
+    - ReentrantLock : It provides features like fairness policies, interruptible lock acquisition, and the ability to try                         acquiring a lock with a timeout. It is "reentrant" meaning the thread holding the lock can re-acquire                      it without causing a deadlock.
+    - ReadWriteLock :
+    - StampedLock
 
 </details>
