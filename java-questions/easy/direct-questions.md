@@ -942,7 +942,7 @@ A.  Threads which are not created by user and runs forever. [system threads] <br
     They are useful for running background process. lets say - updating service package, database service <br>
     isDeamon() of thread method helps in indicating whether it is normal or deamon thread
 
-24. What is Thread group ? Adv/Dis ? How is it represented ?
+24. What is Thread group ? Adv/Dis ? How is it represented ? <br>
 A.  It is a group of threads where each thread works independently per task and will consume more resources <br>
     It is generally represent with Thread. Thread.currentThread() gives the information <br>
     Adv: <br>
