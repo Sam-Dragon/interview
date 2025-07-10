@@ -189,7 +189,6 @@ A. Arrays can be created using literal or array objects <br>
 6. Can we interchange square brackets while declaring arrays ? <br>
 A. Yes. int[] arr; (OR) int arr[];
 
-
 7. What is 2D array ? How to create it <br>
 A. It is two dimensional array which is used storing the data <br>
    It is created same way as 1D array
@@ -826,7 +825,7 @@ A.  When any int value is assigned to wrapper class. Internally it is converted 
 1. Tell me about theads ? where to use ? adv/dis ? <br>
 A. It is seperate path of executing the group of statements <br>
    It is useful in UI responsiveness, web servers, database interaction, data processing <br>
-   Advantage:  for faster execution, improving performance, effective utilization of resources, producer-consumer Problem
+   Advantage:  for faster execution, improving performance, effective utilization of resources, producer-consumer Problem <br>
    Disadavantge: More memory, deadlocks, sync issues
 
 2. Can you explain the Thread content when called using Thread.currentThread() ? <br>
@@ -846,21 +845,21 @@ A. single tasking is a process where it executes one task at a time and goes in 
    single tasking is time consuming and does not utilize system resources properly <br>
    whereas multi tasking is time efficient and utilize the system resources properly <br>
    
-5. What is CPU intensive vs IO intensive Task ? what to use when ?
+5. What is CPU intensive vs IO intensive Task ? what to use when ? <br>
 A. CPU Intensive Task: A task that requires a lot of computation and uses the CPU heavily. <br>
-   Use Cases: Image/video processing, Scientific simulations, Cryptographic calculations, Machine learning model training,      Data compression/encryption
+   Use Cases: Image/video processing, Scientific simulations, Cryptographic calculations, Machine learning model training,      Data compression/encryption <br>
 
-   IO Intensive Task: A task that spends more time waiting for input/output operations than doing computation
+   IO Intensive Task: A task that spends more time waiting for input/output operations than doing computation <br>
    Use Cases: Reading/writing files to disk, Accessing databases, Network communication (APIs, downloading files), Logging      or interacting with hardware
 
 6. Difference between process and threads ? <br>
 A. Process is an independent program in execution whereas Thread is a lightweight unit of a process <br>
-   Process has its own memory space (heap, stack) whereas Thread shares memory with other threads in the same process <br>
-   Process is isolated from other processes	whereas threads are Not isolated – threads can affect each other
-   Process communication is Inter-process Communication (IPC), slower whereas threads uses shared memory – fast but risky (race conditions)
-  Process Creation Overhead Higher (needs separate memory, resources) whereas threads overhead is Lower (shares context with parent process)
-  Process crash affects only that process	whereas Thread crash can affect the whole process (all threads)
-  Process run separate applications/tasks whereas Thread	run parts of the same task concurrently
+   - Process has its own memory space (heap, stack) whereas Thread shares memory with other threads in the same process <br>
+   - Process is isolated from other processes	whereas threads are Not isolated – threads can affect each other
+   - Process communication is Inter-process Communication (IPC), slower whereas threads uses shared memory – fast but risky (race conditions)
+  - Process Creation Overhead Higher (needs separate memory, resources) whereas threads overhead is Lower (shares context with parent process)
+  - Process crash affects only that process	whereas Thread crash can affect the whole process (all threads)
+  - Process run separate applications/tasks whereas Thread	run parts of the same task concurrently
 
 7. How to create threads ? <br>
 - It can be created in following ways
@@ -951,43 +950,40 @@ A.  It is a group of threads where each thread works independently per task and 
        - It may overload consuming more resources and system crashes
     
 25. What is Thread Pools ? Adv/Dis ? Use-case ? <br>
-A.  It is concept of providing readily available threads for the programmer to use. Internally manages thread communication, effective memory utilization<br>
-    Adv: <br>
-       - Ready made threads are provided, user just need to use it
-       - No need to manage the cycle of threads
-   DisAdv: <br>
-      - It is possible to have deadlocks
-      - Internal issue w.r.t threads are undetermined
-   Use-Case:
-      - Programmers tend to use ready-made framework such as executer service which manages thread of pools <br>
-        It is useful in executing any functionality which is background process [Animation, Gaming]
+A.  It is concept of providing readily available threads for the programmer to use. Internally manages thread                   communication, effective memory utilization <br>
+    Adv: Ready made threads are provided, user just need to use it, No need to manage the cycle of threads <br>
+    DisAdv: It is possible to have deadlocks, Internal issue w.r.t threads are undetermined <br>
+    Use-Case: Animation, Gaming, video processing
 
 26. Tell me about different types of thread pools ? <br>
-A.  Single Thread Pool - It just contains only one thread & executes task sequencially. Example - Any Program <br>
-    Single Scheduled Thread Pool - It contains only one Thread & useful for scheduling **future** tasks. Example - Payment <br>
-    Fixed Thread Pool - It contains fixed number of threads and executes tasks parallely<br>
-    Cached Thread Pool - It contains multiple threads provided and executes tasks and waits till 1min before thrashing and                            then new threads will be created <br>
-    Scheduled Thread Pool - It contains multiple threads provided and executes **future** tasks and waits till 1min before thrashing and then new threads will be created <br>
+A.  There are 5 types of pools currently supported
+    - Single Thread Pool - It just contains only one thread & executes task sequencially. Example - Any Program
+    - Single Scheduled Thread Pool - It contains only one Thread & useful for scheduling **future** tasks. Example - Payment
+    - Fixed Thread Pool - It contains fixed number of threads and executes tasks parallely
+    - Cached Thread Pool - It contains multiple threads provided and executes tasks and waits till 1min before thrashing                               and then new threads will be created
+    - Scheduled Thread Pool - It contains multiple threads provided and executes **future** tasks and waits till 1min                                     before thrashing and then new threads will be created
 
-27. What is Executor Service ? How is it useful ? <br>
+28. What is Executor Service ? How is it useful ? <br>
 A.  It is a framework designed for providing worker threads. It uses **Exeutors** class to create thread pool <br>
     It is useful because it manages the lifecycle of threads <br>
 
-28. What is CPU vs Memeory Intensive Tasks ?
-A.  The task which requires more processing power then it is called cpu intensive task. <br>
+29. What is CPU vs Memeory Intensive Tasks.? <br>
+A.  Tasks are divided based on tasks as follows
+    - The task which requires more processing power then it is called cpu intensive task. <br>
     Use Process Based Multi=tasking <br>
     Ex: Math calculation
-    The task which requires more memory power then it is called memory intensive task. <br>
+    - The task which requires more memory power then it is called memory intensive task. <br>
     Use Thread Based Multi=tasking <br>
     Ex: Games, Animation 
 
-29. Explain Thread Life Cycle ?
-A.  New - When the thread is created but not running state [start() method] <br>
-    Runnable - When the thread is ready to run [yeild(), notify(), notifyAll() method] <br>
-    Not-Runnable - When the thread is blocked/waited [sleep(), wait(), IO Block method] <br>
-    Terminate - When the thread is killed [stop() method (OR) run method finishes] <br>
+30. Explain Thread Life Cycle ? <br>
+A.  Following are the states of the threads
+    - New - When the thread is created but not running state [start() method]
+    - Runnable - When the thread is ready to run [yeild(), notify(), notifyAll() method] 
+    - Not-Runnable - When the thread is blocked/waited [sleep(), wait(), IO Block method]
+    - Terminate - When the thread is killed [stop() method (OR) run method finishes]
 
-30. Types of locks in threads ? Example <br>
+31. Types of locks in threads ? Example <br>
 A.  **Intrinsic Locks** - Implicit locks which works with single thread under synchronization <br>
     - Object level lock : lock which works on object instance <br>
     - Class level lock : lock which works on class instance <br>
