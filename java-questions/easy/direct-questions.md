@@ -951,10 +951,10 @@ A.  It is a group of threads where each thread works independently per task and 
        - It may overload consuming more resources and system crashes
     
 25. What is Thread Pools ? Adv/Dis ? Use-case ? <br>
-A.  It is concept of providing readily available threads for the programmer to use. Internally manages thread communication,     effective memory utilization<br>
+A.  It is concept of providing readily available threads for the programmer to use. Internally manages thread communication, effective memory utilization<br>
     Adv: <br>
-       - Ready made threads are provided, user just need to use it <br>
-       - No need to manage the cycle of threads <br>
+       - Ready made threads are provided, user just need to use it
+       - No need to manage the cycle of threads
    DisAdv: <br>
       - It is possible to have deadlocks
       - Internal issue w.r.t threads are undetermined
