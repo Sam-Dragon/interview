@@ -876,24 +876,27 @@ A. It can be run using start() method of thread. <br>
 9. Can i start a thread again ? <br>
 A. No, It will throw InterruptedException
 
-10. Can i stop a thread ? <br>
+10. How to pass variables to threads ? <br>
+A.  Via Constructor
+
+11. Can i stop a thread ? <br>
 A.  Yes, but not recommended [In case you want to stop, stop using flags not using Thread.stop()]
 
-11. Thread vs Process ? Explain <br>
+12. Thread vs Process ? Explain <br>
 A.  Thread is used for performing a single task whereas process contains serveral tasks and needs serveral threads <br>
     Threads are lighweight in nature whereas processes are heavier as it requires more cpu and memory <br>
     Example: Process: Payment, Task: check payment mode, deduct from bank account, credit to wallet, process order
 
-12. What exceptions does thread throw ? Do we need to handle ? <br>
+13. What exceptions does thread throw ? Do we need to handle ? <br>
 A.  Interrupted Exception is thrown by thread methods and yes we need to handle for normal termination
 
-13. Where all memory will be allocated once thread is created ? <br>
+14. Where all memory will be allocated once thread is created ? <br>
 A.  Heap, Method Area, Stack
 
-14. Are thread synchronous or Asynchronous in nature ? <br> 
+15. Are thread synchronous or Asynchronous in nature ? <br> 
 A.  Asynchronous
 
-15. Difference between sleep() and wait() method ? <br>
+16. Difference between sleep() and wait() method ? <br>
 A.  sleep() is method of Thread class whereas wait() is the method of object class <br>
     sleep() method doesnt required object it just blocks thread whereas wait() requires object hence it needs sync block or method.
     sleep() method doesnt release the lock which is aquired whereas wait() releases the lock if aquired <br>
@@ -902,28 +905,28 @@ A.  sleep() is method of Thread class whereas wait() is the method of object cla
     sleep() doesnt required wakeup methods its time based whereas wait() requires wakeup using notify(), notifyAll() <br>
     sleep() is useful in polling or retry logic whereas wait() is useful mainly for Producer-Consumer problem
 
-16. What is race condition ? How does it occur with scenario ?
+17. What is race condition ? How does it occur with scenario ?
 A.  It is the problem which occurs when multiple threads updates the same shared resource <br>
     Scenario: In bank account, if we perform operations such as deposit or withdrawal at a time, this problem can occur
 
-17. Explain Synchronization process.? Explain with example.? Adv/Disadv
+18. Explain Synchronization process.? Explain with example.? Adv/Disadv
 A.  Synchronization in Java is a mechanism used to control the access of multiple threads to shared resources. <br>
     Adv: It sequencializes the thread aquiring shared resource preventing race condition
     DisAdv: Slowers the performance, consumes more memory <br>
     Example: Any distributions like ticket counter, bus counter
 
-18. How many ways can we perform synchronizaton process ? <br>
+19. How many ways can we perform synchronizaton process ? <br>
 A.  It can be using sync block (OR) sync method
 
-19. When to use wait(), notify() and notifyAll()
+20. When to use wait(), notify() and notifyAll()
 A.  Mainly used for Thread Communication. Must be used in sync block/method <br>
     Example: producer-consumer problem etc..
 
-20. What is mutually exclusive lock ?
+21. What is mutually exclusive lock ?
 A.  When one thread holds the lock and other thread wants to aquire it, they are mutually exclusive in nature. <br>
     (Or) The object is locked mutually on threads. It requires synchronization
      
-21. What is deadlock ? How does it occur ? Preventition steps ? Disadvantages ? <br>
+22. What is deadlock ? How does it occur ? Preventition steps ? Disadvantages ? <br>
 A.  Deadlock is a process in which threads lock each other waiting forever, it happens in mutli-threaded enviroment while        threads works with resource with sync block or methods <br>
     It can occur if the two threads waits for each other to release the resource <br>
     Steps: <br>
@@ -933,15 +936,15 @@ A.  Deadlock is a process in which threads lock each other waiting forever, it h
        - It can run the memory out
        - system will hang and slowness can be observerd
  
-22. In multi-threaded environment, how will you manipulate strings ?
+23. In multi-threaded environment, how will you manipulate strings ?
 A.  Use StringBuffer
 
-23. What is deamon threads ? use-case ? how to check if thread is deamon ? <br>
+24. What is deamon threads ? use-case ? how to check if thread is deamon ? <br>
 A.  Threads which are not created by user and runs forever. [system threads] <br>
     They are useful for running background process. lets say - updating service package, database service <br>
     isDeamon() of thread method helps in indicating whether it is normal or deamon thread
 
-24. What is Thread group ? Adv/Dis ? How is it represented ? <br>
+25. What is Thread group ? Adv/Dis ? How is it represented ? <br>
 A.  It is a group of threads where each thread works independently per task and will consume more resources <br>
     It is generally represent with Thread. Thread.currentThread() gives the information <br>
     Adv: <br>
@@ -949,13 +952,13 @@ A.  It is a group of threads where each thread works independently per task and 
     DisAdv: <br>
        - It may overload consuming more resources and system crashes
     
-25. What is Thread Pools ? Adv/Dis ? Use-case ? <br>
+26. What is Thread Pools ? Adv/Dis ? Use-case ? <br>
 A.  It is concept of providing readily available threads for the programmer to use. Internally manages thread                   communication, effective memory utilization <br>
     Adv: Ready made threads are provided, user just need to use it, No need to manage the cycle of threads <br>
     DisAdv: It is possible to have deadlocks, Internal issue w.r.t threads are undetermined <br>
     Use-Case: Animation, Gaming, video processing
 
-26. Tell me about different types of thread pools ? <br>
+27. Tell me about different types of thread pools ? <br>
 A.  There are 5 types of pools currently supported
     - Single Thread Pool - It just contains only one thread & executes task sequencially. Example - Any Program
     - Single Scheduled Thread Pool - It contains only one Thread & useful for scheduling **future** tasks. Example - Payment
