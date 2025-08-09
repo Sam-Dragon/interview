@@ -1,6 +1,7 @@
 # Spring Security
 
-<details></details>
+<details>
+<summary>BASIC</summary>
   
 1. What is security? how do define in the system ?
 - It the process of securing the application by provinding access to valid users
@@ -13,7 +14,11 @@
 3. How to control access to api based on role?
 - Role based authorization
 
-# Token
+</details>
+
+<details>
+<summary>JWT TOKEN</summary>
+
 1. Explain what is token? how it is segregated?
 - Token is another way of authenticating into the system
 - It has 3 parts
@@ -24,9 +29,14 @@
 2. How to do you refresh the token if the token is expired making sure it we dont pass credentials?
 - using refresh token generated along with token 
 
-# gateway
+</details>
+<details>
+<summary>GATEWAY</summary>
+
 1. How many instances of gateway is required?
 - more than one. Ideally 3
 
 2. How to do you whitelist or blacklist an ipaddress?
 - in gateway configuration
+
+</details>
