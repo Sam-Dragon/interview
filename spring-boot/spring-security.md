@@ -16,17 +16,47 @@ A. Role based authorization [RBAC]
 
 </details>
 <details>
+<summary>ATTACKS</summary>
+
+1. Tell me something about DOS attack ? When does it effect the system ? How to prevent ? <br>
+A. DOS [Deniel Of Service], this attack comprises of flood of requests sent to server effecting system performance even system crashes
+<br> **Solution**: It can be prevented by 'Rate limiters & throttlers'
+
+2. Tell me something about Man in Middle Attack > How to prevent ? <br>
+A. MIM [Man In Middle], this attack comprises of insecure way of data transmission which can lead to other problems like Impersonation, Data alteration etc. 
+<br> **Solution**: It can be prevented by 'HTTPS' protocol
+
+3. Tell me something about SQL Injection Attack > How to prevent ? <br>
+A. SQL Injection, this attack comprises of scripts to execute funtion on server which can lead to server crash or unauthorized access. 
+<br> **Solution**: It can be prevented by 'validation' of data formats
+
+4. Tell me something about Authentication issues > what are better approaches ? <br>
+A. Authentication, it is a way to access the system
+<br> **Solution**: It can be addressed using JWT [Java Web Tokens], Short-lived tokens etc..
+
+5. Tell me something about Authorization issues > what are better approaches ? <br>
+A. Authorization, it is a way to access the resources of the system
+<br> **Solution**: It can be addressed using OAUTH, RBAC etc..
+
+</details>
+<details>
 <summary>JWT TOKEN</summary>
 
 1. Explain what is token? how it is segregated ? <br>
 A. Token is another way of authenticating into the system
-- It has 3 parts
+* It has 3 parts
   - Header: Metadata
   - Body: It contains user information
   - Signature: Inbuilt
 
 2. How to do you refresh the token if the token is expired making sure it we dont pass credentials ? <br>
-A. Using refresh token generated along with token 
+A. Using refresh token generated along with token
+
+3. How to communicate to other services securily ? <br>
+A. We can use static API token, JWT Propagation, TLS certificates, kubernetes interally
+
+4. How to communicate to external services securily ? <br>
+A. We can use Basic Auth, Sessions, Token Based Authentication [JWT or OAuth2 bearer tokens], api keys
 
 </details>
 <details>
