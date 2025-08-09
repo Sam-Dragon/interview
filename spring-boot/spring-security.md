@@ -66,6 +66,9 @@ A. We can use Basic Auth, Sessions, Token Based Authentication [JWT or OAuth2 be
 A. more than one. Ideally 3
 
 2. How to do you whitelist or blacklist an ipaddress ? <br>
-A. in gateway configuration
+A. in gateway configuration, using global filters or gateway filters
+
+3. How to do you limit the number of requests from client ? <br>
+A. in gateway configuration, using rate limiter config
 
 </details>
