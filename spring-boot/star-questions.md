@@ -23,7 +23,7 @@ A. Application wont start as these are conflicting url's
 A. singleton, prototype, request, session & global-session[Deprecated] <br>
 Example: Try in editor
 
-8. What are the best practices to mitigate risks ?
+8. What are the best practices to mitigate risks.? <br>
 A. Following are the some of them
 - Protocol HTTPS                   --> To prevent man-in-middle attacks
 - Rate Limiters & Throttling       --> To prevent DOS attacks
