@@ -1,14 +1,16 @@
 # Spring Security
 
-# What is security? how do define in the system ?
+<details></details>
+  
+1. What is security? how do define in the system ?
 - It the process of securing the application by provinding access to valid users
 - It can be done via authentication followed by authorization
 
-# Authentication vs Authorization?
+2. Authentication vs Authorization?
 - Authentication is the mechanism via which user will access the system using credentials
 - Authorization is the process of accessing the resources based on permissions
 
-# How to control access to api based on role?
+3. How to control access to api based on role?
 - Role based authorization
 
 # Token
