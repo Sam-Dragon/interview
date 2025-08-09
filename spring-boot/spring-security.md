@@ -4,8 +4,7 @@
 <summary>BASIC</summary>
   
 1. What is security? how do define in the system ?
-- It the process of securing the application by provinding access to valid users
-- It can be done via authentication followed by authorization
+A It the process of securing the application by provinding access to valid users. <br> It can be done via authentication followed by authorization
 
 2. Authentication vs Authorization?
 - Authentication is the mechanism via which user will access the system using credentials
