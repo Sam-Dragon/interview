@@ -23,4 +23,10 @@ A. Application wont start as these are conflicting url's
 A. singleton, prototype, request, session & global-session[Deprecated] <br>
 Example: Try in editor
 
-8. 
+8. What are the best practices to mitigate risks ?
+A. Following are the some of them
+- Protocol HTTPS                   --> To prevent man-in-middle attacks
+- Rate Limiters & Throttling       --> To prevent DOS attacks
+- Input Validation                 --> To prevent SQL Injections
+- Authentication                   --> Use JWT, short-lived tokens & strong secrets
+- Authorization                    --> OAuth, RBAC
