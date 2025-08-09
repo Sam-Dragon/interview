@@ -4,7 +4,7 @@
 A. https://danielangel22.medium.com/fighting-ddos-attacks-implementing-custom-rate-limiting-in-your-api-with-spring-boot-1a038b8124e7
 
 2. How to prevent XSS attacks using spring boot? </br>
-   https://danielangel22.medium.com/preventing-xss-attacks-in-your-spring-boot-api-c266a175e011   
+A. https://danielangel22.medium.com/preventing-xss-attacks-in-your-spring-boot-api-c266a175e011   
 
 3. Additional security to which can be provided to system on login page ? [Question focus on system attacks] <br>
 A. DOS attack which can be solved using resiliency. Basically it counts the number of hits from particular api and block if required once threshould is reached
