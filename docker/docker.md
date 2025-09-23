@@ -31,3 +31,5 @@ A. Following are the stages of docker container
   - Paused          :   docker pause
   - Stopped/Exited  :   docker stop
   - Removed/Deleted :   docker rm
+
+10. Docker Client vs Docker Deamon ?
