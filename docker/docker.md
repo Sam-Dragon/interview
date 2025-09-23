@@ -26,8 +26,8 @@ A.
 
 9. Lifecycle of docker container ? <br>
 A. Following are the stages of docker container
-- Created         :   docker build (OR) docker create (OR) docker run 
-- Running         :   docker run
-- Paused          :   docker pause
-- Stopped/Exited  :   docker stop
-- Removed/Deleted :   docker rm
+  - Created         :   docker build (OR) docker create (OR) docker run 
+  - Running         :   docker run
+  - Paused          :   docker pause
+  - Stopped/Exited  :   docker stop
+  - Removed/Deleted :   docker rm
