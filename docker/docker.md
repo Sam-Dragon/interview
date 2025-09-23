@@ -24,4 +24,4 @@ A.
 8. How do you copy files inside/outside the container.? <br>
 A.
 
-9. 
+9. Lifecycle of docker ? <br>
