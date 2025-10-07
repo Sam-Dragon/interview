@@ -24,7 +24,7 @@ A. It is the storage mechanism which will save the data even if docker container
 A.  We can create shared volume and pass it between applications
 
 11. How would you create dummy container to test some functionality.? <br>
-A.  Use docker run command and test the functionality [Dont use in detached mode]
+A.  Use docker run command with sleep and test the functionality [Dont use in detached mode]
 
 12. How do you copy files inside/outside the container.? <br>
 A.  docker cp would be useful for copying files from outside to inside container
