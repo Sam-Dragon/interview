@@ -1,32 +1,35 @@
 # Questions
 
 1. what is docker.? why we use it.? what is required to run docker.? <br>
-A. Packing applications with required dependencies and liberaries <br>
+A. Packing applications with required dependencies and libraries
    - Use: Portability, Fast Bootup, Sharing
    - Advantage: Matrix of hell, Ease of deployment, Compatibility issues
 
 3. where do you store docker images so that it is easily sharable.? <br>
-A.
+A. Generally it is stored in docker hub registry
 
 4. How many ways can we share docker images to the user.? <br>
-A.
+A. Generally if you want to share privately, use docker save and load and share the images in zip file
+- If you want to share publically, share it via docker hub registry
 
-5. what is docker image & docker container.? what is difference b/w them.? <br>
-A.
+6. what is docker image & docker container.? <br>
+A. Package template which contains application along with dependencies and libraries
+- Docker container: It is running instance of docker image
 
-6. what is docker volume.? how is it useful.? <br>
-A.
+8. what is docker volume.? how is it useful.? <br>
+A. It is the storage mechanism which will save the data even if docker container is removed or crashed.
+- Data will be available when the container is created
 
-7. How do you share volume b/w multiple applications.? <br>
-A.
+10. How do you share volume b/w multiple applications.? <br>
+A.  We can create shared volume and pass it between applications
 
-8. How would you create dummy container to test some functionality.? <br>
-A. 
+11. How would you create dummy container to test some functionality.? <br>
+A.  Use docker run command and test the functionality [Dont use in detached mode]
 
-9. How do you copy files inside/outside the container.? <br>
-A.
+12. How do you copy files inside/outside the container.? <br>
+A.  docker cp would be useful for copying files from outside to inside container
 
-10. Lifecycle of docker container ? <br>
+13. Lifecycle of docker container ? <br>
 A. Following are the stages of docker container
   - Created         :   docker build (OR) docker create (OR) docker run 
   - Running         :   docker run
