@@ -47,3 +47,6 @@ A. To control the amount of hardward / cpu to allocate for docker [option: --cpu
 
 12. What are docker network types ? which is default.
 A.  bridge [default], none, host
+
+13. What is embedded DNS ?
+A. Each docker service connects with another using embedded DNS instead of ip address
