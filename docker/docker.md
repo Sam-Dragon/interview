@@ -43,4 +43,7 @@ A. Following are the stages of docker container
 - Docker Engine = Docker CLI + API's + Docker Deamon
 
 11. What are C-groups in docker ?
-- To control the amount of hardward / cpu to allocate for docker [option: --cpu or --memory]
+A. To control the amount of hardward / cpu to allocate for docker [option: --cpu or --memory]
+
+12. What are docker network types ? which is default.
+A.  bridge [default], none, host
