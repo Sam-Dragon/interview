@@ -56,3 +56,6 @@ A. It can be done using docker inspect command
 
 15. How to watch the logs as soon as container starts ? <br>
 A. It is possible if you run the docker in attached mode
+
+** 16. Docker Architecture ? <br>
+** 17. Docker Execution Steps ? <br>
