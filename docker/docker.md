@@ -52,9 +52,11 @@ A.  bridge [default], none, host
 A. Each docker service connects with another using embedded DNS instead of ip address
 
 14. How to identify the issue of the container which is exited ? <br>
-A. It can be done using docker inspect command
+A. It can be done using
+   - docker logs for logs info
+   - docker inspect for exit info
 
-15. How to watch the logs as soon as container starts ? <br>
+16. How to watch the logs as soon as container starts ? <br>
 A. It is possible if you run the docker in attached mode
 
 ** 16. Docker Architecture ? <br>
