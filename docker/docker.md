@@ -50,3 +50,6 @@ A.  bridge [default], none, host
 
 13. What is embedded DNS ?  <br>
 A. Each docker service connects with another using embedded DNS instead of ip address
+
+14. How to identify the issue of the container which is exited ? <br>
+A. It can be done using docker inspect command
