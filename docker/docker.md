@@ -37,16 +37,16 @@ A. Following are the stages of docker container
   - Stopped/Exited  :   docker stop
   - Removed/Deleted :   docker rm
 
-10. Docker Client Vs Docker Deamon Vs Docker Engine.?
+10. Docker Client Vs Docker Deamon Vs Docker Engine.?  <br>
 - Docker client or docker cli is responsible for accepting all the commands from user and send it to appropritate api
 - Docker Deamon is backend thread which is responsible for executing those commands and return the results
 - Docker Engine = Docker CLI + API's + Docker Deamon
 
-11. What are C-groups in docker ?
+11. What are C-groups in docker ?  <br>
 A. To control the amount of hardward / cpu to allocate for docker [option: --cpu or --memory]
 
-12. What are docker network types ? which is default.
+12. What are docker network types ? which is default.  <br>
 A.  bridge [default], none, host
 
-13. What is embedded DNS ?
+13. What is embedded DNS ?  <br>
 A. Each docker service connects with another using embedded DNS instead of ip address
