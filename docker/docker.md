@@ -53,3 +53,6 @@ A. Each docker service connects with another using embedded DNS instead of ip ad
 
 14. How to identify the issue of the container which is exited ? <br>
 A. It can be done using docker inspect command
+
+15. How to watch the logs as soon as container starts ? <br>
+A. It is possible if you run the docker in attached mode
