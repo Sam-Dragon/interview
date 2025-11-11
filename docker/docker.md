@@ -71,5 +71,8 @@ A.  It is useful when you dont want to install anything directly on server but u
 19. How to dynamically set value for docker ? <br>
 A.  It can be done using environment variables
 
+20. What is docker compose ? whats the use of it ? <br>
+A.  Linking the containers together we use docker compose. Using simple docker, we need to link them 
+
 ** . Docker Architecture ? <br>
 ** . Docker Execution Steps ? <br>
