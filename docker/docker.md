@@ -56,8 +56,20 @@ A. It can be done using
    - docker logs for logs info
    - docker inspect for exit info
 
-16. How to watch the logs as soon as container starts ? <br>
+15. How to watch the logs as soon as container starts ? <br>
 A. It is possible if you run the docker in attached mode
 
-** 16. Docker Architecture ? <br>
-** 17. Docker Execution Steps ? <br>
+16. When we run docker-compose using docker images, will container be in attached or detached mode ? <br>
+A.  It will be in detached mode
+
+17. In which case, docker attach is useful ? <br>
+A.  It is useful when you want to see live logs or find reason for failure
+
+18. What is the use of docker run -it <CONTAINER> bash ?
+A.  It is useful when you dont want to install anything directly on server but u want to test inside container
+
+19. How to dynamically set value for docker ? <br>
+A.  It can be done using environment variables
+
+** . Docker Architecture ? <br>
+** . Docker Execution Steps ? <br>
