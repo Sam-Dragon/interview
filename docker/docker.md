@@ -72,7 +72,9 @@ A.  It is useful when you dont want to install anything directly on server but u
 A.  It can be done using environment variables
 
 20. What is docker compose ? whats the use of it ? <br>
-A.  Linking the containers together we use docker compose. Using simple docker, we need to link them 
+A.  Linking the containers together or bringing all the containers in same network, we use docker compose. Using simple docker, we need to link them 
+
+21. 
 
 ** . Docker Architecture ? <br>
 ** . Docker Execution Steps ? <br>
