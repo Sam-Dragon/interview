@@ -74,7 +74,8 @@ A.  It can be done using environment variables
 20. What is docker compose ? whats the use of it ? <br>
 A.  Linking the containers together or bringing all the containers in same network, we use docker compose. Using simple docker, we need to link them 
 
-21. 
+21. How does docker resolve the container names in network ? <br>
+A.  It uses Docker Network Namespaces to resolve the container names 
 
 ** . Docker Architecture ? <br>
 ** . Docker Execution Steps ? <br>
