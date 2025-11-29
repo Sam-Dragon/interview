@@ -84,6 +84,6 @@ A.  Linking the containers together or bringing all the containers in same netwo
 A.  It uses Docker Network Namespaces to resolve the container names
 
 22. Lets say i dont want to install dependencies in my docker, but want to add in my single container for debugging ? <br>
-A.  use docker exec command
+A.  use docker run command
 
 
