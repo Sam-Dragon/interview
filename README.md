@@ -1,6 +1,23 @@
 # Interview Pattern 
 
 <details>
+<summary> PROGRAMS </summary>  
+<br>
+
+</details>
+
+<details>
+<summary> THREADS </summary>  
+<br>
+
+- creation ? ways to create it
+- methods ?
+- Lifecycle of thread
+
+</details>
+
+
+<details>
 <summary> JAVA </summary>  
 <br>
   
@@ -84,8 +101,3 @@
 
 </details>
 
-<details>
-<summary> PROGRAMS </summary>  
-<br>
-
-</details>
